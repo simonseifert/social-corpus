@@ -1,0 +1,48 @@
+{
+ "flat": {
+  "channel": "Portville Tourism",
+  "channel_id": "UClFRrWoSUwE-F_gcoyTXEhX",
+  "uploader_id": "@portvilletourism",
+  "uploader_url": "https://www.youtube.com/@portvilletourism",
+  "channel_follower_count": 21400000,
+  "description": "Official channel of the Portville tourist board: the harbour, the old town and the coast.",
+  "title": "Portville Tourism - Shorts",
+  "entries": [
+   {
+    "id": "I4DVI3JZ6dN",
+    "title": "Sunrise over the Portville harbour",
+    "url": "https://www.youtube.com/shorts/I4DVI3JZ6dN",
+    "view_count": 76000,
+    "_type": "url"
+   },
+   {
+    "id": "vNyVawxnCNi",
+    "title": "Three hidden beaches near Portville",
+    "url": "https://www.youtube.com/shorts/vNyVawxnCNi",
+    "view_count": 1100000,
+    "_type": "url"
+   },
+   {
+    "id": "JfBdlMXLctL",
+    "title": "The old town clock tower in 30 seconds",
+    "url": "https://www.youtube.com/shorts/JfBdlMXLctL",
+    "view_count": 3700000,
+    "_type": "url"
+   }
+  ]
+ },
+ "short": {
+  "id": "I4DVI3JZ6dN",
+  "title": "Sunrise over the Portville harbour",
+  "description": "The first ferry leaves at 5:40.\n\nWe filmed the harbour waking up, from the breakwater to the fish market.",
+  "timestamp": 1792674017,
+  "duration": 58,
+  "view_count": 76023,
+  "like_count": 4718,
+  "comment_count": 115,
+  "channel_id": "UClFRrWoSUwE-F_gcoyTXEhX",
+  "uploader_id": "@portvilletourism",
+  "thumbnail": "https://media.example.net/yt/I4DVI3JZ6dN/maxresdefault.jpg",
+  "language": "en"
+ }
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+*.db-wal
+*.db-shm
+.env
+media/
+briefs/
+.DS_Store
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.gstack/

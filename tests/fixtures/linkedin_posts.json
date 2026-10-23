@@ -1,0 +1,372 @@
+[
+ {
+  "type": "post",
+  "id": "7488406960445567399",
+  "linkedinUrl": "https://www.linkedin.com/posts/taylorbrooks_some-notes-on-the-pricing-dashboard-activity-7488406960445567399-OE4c",
+  "content": "Some notes on the pricing dashboard I built last weekend and showed at today's all-hands.  \n\nI took the spreadsheet Morgan Lee on our finance team put together for Q3 planning and used our coding assistant with a single prompt + skill (/plan-it) to draft the plan, then let it build the full app (with history, lookups, scenarios, what-ifs, etc). And /review to test.  \n\nAnd the best part is that every artifact lives in our own environment. The app, the code and the data models all sit behind the same access controls and budget limits!  \n\nSo this is not about vibe coding. Every step of the way the rails are set up to create value, making everything a long-term reusable asset, with governance/security, and cost controls.  \n\nThis is the full system to drive business value. Disclosures: every number is made up, and for illustrative purposes only...not financial advice! :)  Here is the app and architecture...",
+  "contentAttributes": [
+   {
+    "start": 116,
+    "length": 10,
+    "type": "PROFILE_MENTION",
+    "hyperlink": false,
+    "textLink": null,
+    "profile": {
+     "id": "ACoAAy87rFYvZm_pUouP7TPuhq56hHHR_wQ2mtx",
+     "firstName": "Morgan",
+     "lastName": "Lee",
+     "linkedinUrl": "https://www.linkedin.com/in/morgan-lee-4a7c21",
+     "publicIdentifier": "morgan-lee-4a7c21"
+    }
+   }
+  ],
+  "author": {
+   "id": "ACoAAPJoUXjscLXIbhOXKxuDGVZbHsdCj3mkGCl",
+   "universalName": null,
+   "publicIdentifier": "taylorbrooks",
+   "type": "profile",
+   "name": "Taylor Brooks",
+   "linkedinUrl": "https://www.linkedin.com/in/taylorbrooks?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAPJoUXjscLXIbhOXKxuDGVZbHsdCj3mkGCl",
+   "info": "Founder and CEO at Example Corp",
+   "website": null,
+   "websiteLabel": null,
+   "avatar": {
+    "url": "https://media.example.net/li/avatar/taylorbrooks_800.jpg",
+    "width": 800,
+    "height": 800
+   },
+   "urn": "27731905"
+  },
+  "postedAt": {
+   "timestamp": 1785375347243,
+   "date": "2026-07-30T01:35:47.243Z",
+   "postedAgoShort": "6d",
+   "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+  },
+  "postImages": [
+   {
+    "url": "https://media.example.net/li/feedshare/tb-0.jpg",
+    "width": 1329,
+    "height": 864
+   },
+   {
+    "url": "https://media.example.net/li/feedshare/tb-1.jpg",
+    "width": 1920,
+    "height": 1152
+   }
+  ],
+  "socialContent": {
+   "hideCommentsCount": false,
+   "hideReactionsCount": false,
+   "hideSocialActivityCounts": false,
+   "hideShareAction": false,
+   "hideSendAction": false,
+   "hideRepostsCount": false,
+   "hideViewsCount": false,
+   "trustInterventionBanner": null,
+   "hideReactAction": false,
+   "hideCommentAction": false,
+   "shareUrl": "https://www.linkedin.com/posts/taylorbrooks_some-notes-on-the-pricing-dashboard-activity-7488406960445567399-OE4c?",
+   "showContributionExperience": false,
+   "showSocialDetail": true
+  },
+  "comments": [],
+  "header": {
+   "text": null
+  },
+  "entityId": "7488406960445567399",
+  "shareUrn": "urn:li:ugcPost:7488406958745715120",
+  "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488406958745715120",
+  "engagement": {
+   "id": "7488406958745715120",
+   "likes": 7364,
+   "comments": 386,
+   "shares": 269,
+   "reactions": [
+    {
+     "type": "LIKE",
+     "count": 6786
+    },
+    {
+     "type": "INTEREST",
+     "count": 226
+    },
+    {
+     "type": "EMPATHY",
+     "count": 197
+    },
+    {
+     "type": "PRAISE",
+     "count": 128
+    },
+    {
+     "type": "APPRECIATION",
+     "count": 22
+    },
+    {
+     "type": "ENTERTAINMENT",
+     "count": 5
+    }
+   ]
+  },
+  "reactions": [],
+  "reactionIds": [],
+  "commentIds": [],
+  "query": {
+   "sortBy": "date",
+   "page": "1",
+   "targetUrl": "https://www.linkedin.com/in/taylorbrooks/",
+   "sessionId": "78e4b7a2-4df9-4bef-b71d-d48eed5609b6"
+  }
+ },
+ {
+  "type": "post",
+  "id": "7488424658041883389",
+  "linkedinUrl": "https://www.linkedin.com/posts/orbitlab_orbit-lab-is-shaping-the-future-of-personal-activity-7485407087926325620-oC9J",
+  "content": "We are happy to announce the launch of Orbit Lab Studio, an initiative dedicated to shaping the future of personal assistants. The first Orbit Lab Studio experiment is Waypoints, a new experience that helps people plan through different life phases. Orbit Lab helped define the category of personal assistants, and today marks our next chapter in defining what that category can become.\n\nHere are more details from our CEO, Priya Shah, and Co-Founder, Jamie Chen: \n\nPriya Shah: “We’re focused on building human-centered AI that understands you, knows what matters to you, makes you more capable, brings you closer to the people in your life, and helps you navigate your everyday life. Our approach combines strong AI capabilities with emotional and relational intelligence, so the assistant is more relational than transactional. Three years ago we shipped one of the first conversational assistants designed to meet you where you are, with text or voice, that learns and adapts with you through every interaction - not the other way around. We’re continuing to build AI that gives people more agency.\"\n\nJamie Chen: \"People should be amplified by AI, not replaced. That's the principle Waypoints was built on. Every general-purpose technology in history, from the printing press to the bicycle, gave people new abilities. Personal assistants are the next one, and this time everyone gets it. Waypoints helps you become your better self, and that's something no replacement technology can do.\"\n\nWe also published the State of Everyday AI Report, which includes new findings on how people use AI, and what they want from it: \n- The average respondent reports using roughly 2 different AI tools every day, and 3 per week.\n- When asked what future AI capabilities would be most valuable, people said they want more than a productivity tool. A few of the ways people said they want AI to help them include as a coach to motivate, a chef to suggest recipes, or a DJ to curate a playlist. \n- People reported choosing an AI based on values including: personalization, style and tone, context awareness, and emotional understanding.\n\nThe findings show that there won't be one AI to rule them all. People are looking for multiple AI tools to help them in different parts of their lives, and AI should be a relational tool, not just a transactional one. These insights are directly shaping how Orbit Lab builds its assistants. \n\nCheck out the full news here, and let us know in the comments what you want from your personal assistant. \nhttps://lnkd.in/gExmpl42",
+  "contentAttributes": [
+   {
+    "start": 424,
+    "length": 10,
+    "type": "PROFILE_MENTION",
+    "hyperlink": false,
+    "textLink": null,
+    "profile": {
+     "id": "ACoAAx_51O9digbxgJ6ZdcgLVBiiXYX9woggb7x",
+     "firstName": "Priya",
+     "lastName": "Shah",
+     "linkedinUrl": "https://www.linkedin.com/in/priyashah",
+     "publicIdentifier": "priyashah"
+    }
+   },
+   {
+    "start": 452,
+    "length": 10,
+    "type": "PROFILE_MENTION",
+    "hyperlink": false,
+    "textLink": null,
+    "profile": {
+     "id": "ACoAAMy2yPtNAFyu-aPmcjPiDNW24iwNKtpNNw_",
+     "firstName": "Jamie",
+     "lastName": "Chen",
+     "linkedinUrl": "https://www.linkedin.com/in/jamiechen",
+     "publicIdentifier": "jamiechen"
+    }
+   }
+  ],
+  "author": {
+   "id": "80417733",
+   "universalName": "orbitlab",
+   "publicIdentifier": null,
+   "type": "company",
+   "name": "Orbit Lab",
+   "linkedinUrl": "https://www.linkedin.com/company/orbitlab/posts",
+   "info": "93,868 followers",
+   "website": null,
+   "websiteLabel": null,
+   "avatar": {
+    "url": "https://media.example.net/li/logo/orbitlab_400.jpg",
+    "width": 400,
+    "height": 400
+   },
+   "urn": "80417733"
+  },
+  "postedAt": {
+   "timestamp": 1785379566679,
+   "date": "2026-07-30T02:46:06.679Z",
+   "postedAgoShort": "2w",
+   "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+  },
+  "postImages": [],
+  "article": {
+   "title": "Orbit Lab is Shaping the Future of Personal Assistants",
+   "subtitle": "orbitlab.example.com",
+   "link": "https://orbitlab.example.com/blog/orbit-lab-is-shaping-the-future-of-personal-assistants",
+   "linkLabel": "Open article: Orbit Lab is Shaping the Future of Personal Assistants by orbitlab.example.com",
+   "description": null,
+   "image": {
+    "url": "https://media.example.net/li/articleshare/orbitlab-card.jpg",
+    "width": 1280,
+    "height": 672
+   }
+  },
+  "repostedBy": {
+   "name": "Jamie Chen",
+   "publicIdentifier": "jamiechen",
+   "universalName": null,
+   "linkedinUrl": "https://www.linkedin.com/in/jamiechen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAMy2yPtNAFyu-aPmcjPiDNW24iwNKtpNNw_"
+  },
+  "repostedAt": {
+   "timestamp": 1785379566679,
+   "date": "2026-07-30T02:46:06.679Z"
+  },
+  "socialContent": {
+   "hideCommentsCount": false,
+   "hideReactionsCount": false,
+   "hideSocialActivityCounts": false,
+   "hideShareAction": true,
+   "hideSendAction": true,
+   "hideRepostsCount": false,
+   "hideViewsCount": false,
+   "trustInterventionBanner": null,
+   "hideReactAction": false,
+   "hideCommentAction": false,
+   "shareUrl": "https://www.linkedin.com/posts/orbitlab_orbit-lab-is-shaping-the-future-of-personal-activity-7485407087926325620-oC9J?",
+   "showContributionExperience": false,
+   "showSocialDetail": true
+  },
+  "comments": [],
+  "header": {
+   "image": {
+    "url": "https://media.example.net/li/avatar/jamiechen_800.jpg",
+    "width": 750,
+    "height": 750
+   },
+   "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7488424658041883389?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7488424658041883389%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=Zx3qT8bWk2Lm9PoR1sVd4A%3D%3D",
+   "imageLink": "https://www.linkedin.com/in/jamiechen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAMy2yPtNAFyu-aPmcjPiDNW24iwNKtpNNw_",
+   "text": "Jamie Chen reposted this"
+  },
+  "entityId": "7488424658041883389",
+  "shareUrn": "urn:li:share:7485407084906723006",
+  "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485407084906723006",
+  "engagement": {
+   "id": "7485407087926325620",
+   "likes": 129,
+   "comments": 17,
+   "shares": 10,
+   "reactions": [
+    {
+     "type": "LIKE",
+     "count": 99
+    },
+    {
+     "type": "PRAISE",
+     "count": 22
+    },
+    {
+     "type": "EMPATHY",
+     "count": 4
+    },
+    {
+     "type": "INTEREST",
+     "count": 3
+    },
+    {
+     "type": "APPRECIATION",
+     "count": 1
+    }
+   ]
+  },
+  "reactions": [],
+  "reactionIds": [],
+  "commentIds": [],
+  "query": {
+   "sortBy": "date",
+   "page": "1",
+   "targetUrl": "https://www.linkedin.com/in/jamiechen/",
+   "sessionId": "30a6109f-4a27-467e-8bb5-5ff436ee044e"
+  }
+ },
+ {
+  "type": "post",
+  "id": "7490558833682770470",
+  "linkedinUrl": "https://www.linkedin.com/posts/northwind-talks_according-to-dana-ortiz-the-current-activity-7490558833682770470-uBBE",
+  "content": "According to Dana Ortiz, the current path AI is on isn’t inevitable — it’s a choice we’re making. Here’s why she says we need to change course: http://t.example.com/Xk9mZq2",
+  "contentAttributes": [
+   {
+    "start": 144,
+    "length": 28,
+    "type": "TEXT_LINK",
+    "hyperlink": null,
+    "textLink": "http://t.example.com/Xk9mZq2"
+   }
+  ],
+  "author": {
+   "id": "5520941",
+   "universalName": "northwind-talks",
+   "publicIdentifier": null,
+   "type": "company",
+   "name": "Northwind Talks",
+   "linkedinUrl": "https://www.linkedin.com/company/northwind-talks/posts",
+   "info": "1,204,330 followers",
+   "website": null,
+   "websiteLabel": null,
+   "avatar": {
+    "url": "https://media.example.net/li/logo/northwind-talks_400.jpg",
+    "width": 400,
+    "height": 400
+   },
+   "urn": "5520941"
+  },
+  "postedAt": {
+   "timestamp": 1785888393803,
+   "date": "2026-08-05T00:06:33.803Z",
+   "postedAgoShort": "13h",
+   "postedAgoText": "13 hours ago • Visible to anyone on or off LinkedIn"
+  },
+  "postImages": [],
+  "postVideo": {
+   "thumbnailUrl": "https://media.example.net/li/videocover/northwind-talks-1.jpg",
+   "videoUrl": "https://dms.licdn.com/playlist/vid/fake/northwind-talks-1/mp4-720p-30fp-crf28/0/1785888378074"
+  },
+  "socialContent": {
+   "hideCommentsCount": false,
+   "hideReactionsCount": false,
+   "hideSocialActivityCounts": false,
+   "hideShareAction": false,
+   "hideSendAction": false,
+   "hideRepostsCount": false,
+   "hideViewsCount": false,
+   "trustInterventionBanner": null,
+   "hideReactAction": false,
+   "hideCommentAction": false,
+   "shareUrl": "https://www.linkedin.com/posts/northwind-talks_according-to-dana-ortiz-the-current-activity-7490558833682770470-uBBE?",
+   "showContributionExperience": false,
+   "showSocialDetail": true
+  },
+  "comments": [],
+  "header": {
+   "text": null
+  },
+  "entityId": "7490558833682770470",
+  "shareUrn": "urn:li:ugcPost:7490558832708280374",
+  "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490558832708280374",
+  "engagement": {
+   "id": "7490558832708280374",
+   "likes": 246,
+   "comments": 12,
+   "shares": 22,
+   "reactions": [
+    {
+     "type": "LIKE",
+     "count": 204
+    },
+    {
+     "type": "INTEREST",
+     "count": 16
+    },
+    {
+     "type": "EMPATHY",
+     "count": 12
+    },
+    {
+     "type": "PRAISE",
+     "count": 7
+    },
+    {
+     "type": "APPRECIATION",
+     "count": 7
+    }
+   ]
+  },
+  "reactions": [],
+  "reactionIds": [],
+  "commentIds": [],
+  "query": {
+   "sortBy": "date",
+   "page": "1",
+   "targetUrl": "https://www.linkedin.com/company/northwind-talks/",
+   "sessionId": "6a9bd7df-a995-4fbd-af4e-0fea86444d11"
+  }
+ }
+]

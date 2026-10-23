@@ -1,0 +1,321 @@
+{
+ "_source": "synthetic, modelled on a real HarvestAPI GET /linkedin/company-posts?company=<company> page 1 response recorded 2026-10-23, 3 of 86 elements kept",
+ "cost": 0.004,
+ "pagination": {
+  "totalElements": 86,
+  "totalPages": 1,
+  "pageNumber": 1,
+  "previousElements": 0,
+  "pageSize": 100,
+  "paginationToken": "1774000123-1792707400000-33bb93bbc76364e343afa66540c132de"
+ },
+ "elements": [
+  {
+   "id": "7518942691748568424",
+   "linkedinUrl": "https://www.linkedin.com/posts/harbor-ferries_%C4%8Dlan-uprave-harbor-ferries-na-konferenciji-activity-7518942691748568424-CySk",
+   "content": "⛴️ Član Uprave Harbor Ferries na konferenciji o sigurnosti plovidbe i obnovi flote\n\nU sklopu sajma Portville Nautika, 21. listopada u Portvilleu održana je konferencija „Sigurnije more – izazovi i rješenja za obalni promet“, u organizaciji portala Pomorski glasnik i udruge Plavi horizont. Konferencija je bila posvećena izazovima pomorskog prometa, unaprjeđenju lučke infrastrukture i rješenjima koja doprinose sigurnijoj plovidbi.\n\n➡️ Ispred Harbor Ferries na panel-raspravi sudjelovao je član Uprave Ivan Lukić, koji je istaknuo važnost usklađenog razvoja luka i modernizacije flote, osobito u kontekstu sigurnosti plovidbe i zelene tranzicije. Osvrnuo se i na planove obnove flote, uvođenje novih pogonskih tehnologija te važnost stalnog usavršavanja pomoraca, čija uloga ostaje nezamjenjiva unatoč tehnološkom napretku.\n\n♻️ Obnova flote i razvoj luka međusobno su povezani procesi, a njihovo usklađivanje traži suradnju brodara, lučkih uprava, regulatora i drugih dionika pomorskog sektora. Takav pristup važan je za daljnji razvoj učinkovitog i održivog obalnog prijevoza.",
+   "contentAttributes": [
+    {
+     "start": 99,
+     "length": 17,
+     "type": "COMPANY_NAME",
+     "hyperlink": "https://www.linkedin.com/company/52031177/",
+     "textLink": null,
+     "company": {
+      "id": "52031177",
+      "name": "Portville Nautika",
+      "linkedinUrl": "https://www.linkedin.com/company/52031177/"
+     }
+    },
+    {
+     "start": 248,
+     "length": 16,
+     "type": "COMPANY_NAME",
+     "hyperlink": "https://www.linkedin.com/company/6610284/",
+     "textLink": null,
+     "company": {
+      "id": "6610284",
+      "name": "Pomorski glasnik",
+      "linkedinUrl": "https://www.linkedin.com/company/6610284/"
+     }
+    },
+    {
+     "start": 503,
+     "length": 10,
+     "type": "PROFILE_MENTION",
+     "hyperlink": "https://www.linkedin.com/in/ACoAAteuC0JzanslhtFzCS6wSlGkc0hvqFDigTe",
+     "textLink": null,
+     "profile": {
+      "id": "ACoAAteuC0JzanslhtFzCS6wSlGkc0hvqFDigTe",
+      "firstName": "Ivan",
+      "lastName": "Lukić",
+      "linkedinUrl": "https://www.linkedin.com/in/ACoAAteuC0JzanslhtFzCS6wSlGkc0hvqFDigTe",
+      "publicIdentifier": null
+     }
+    }
+   ],
+   "author": {
+    "id": "4410287",
+    "universalName": "harbor-ferries",
+    "publicIdentifier": null,
+    "type": "company",
+    "name": "Harbor Ferries",
+    "linkedinUrl": "https://www.linkedin.com/company/harbor-ferries/posts",
+    "info": "4,812 followers",
+    "website": null,
+    "websiteLabel": null,
+    "avatar": {
+     "url": "https://media.example.net/li/logo/harbor-ferries_100.jpg",
+     "width": 100,
+     "height": 100
+    },
+    "urn": "4410287",
+    "companyId": "4410287"
+   },
+   "postedAt": {
+    "timestamp": 1792655632912,
+    "date": "2026-10-22T07:53:52.912Z",
+    "postedAgoShort": "14h",
+    "postedAgoText": "14 hours ago • Visible to anyone on or off LinkedIn"
+   },
+   "postImages": [
+    {
+     "url": "https://media.example.net/li/feedshare/hf-568424-0.jpg",
+     "width": 2048,
+     "height": 1366
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-568424-1.jpg",
+     "width": 2048,
+     "height": 1366
+    }
+   ],
+   "socialContent": {
+    "trustInterventionBanner": null,
+    "shareUrl": "https://www.linkedin.com/posts/harbor-ferries_%C4%8Dlan-uprave-harbor-ferries-na-konferenciji-activity-7518942691748568424-CySk?"
+   },
+   "comments": [],
+   "header": {
+    "text": null
+   },
+   "entityId": "7518942691748568424",
+   "shareUrn": "urn:li:ugcPost:7518942690602655153",
+   "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7518942690602655153",
+   "engagement": {
+    "id": "7518942690602655153",
+    "likes": 22,
+    "comments": 1,
+    "shares": 1,
+    "reactions": [
+     {
+      "type": "LIKE",
+      "count": 21
+     },
+     {
+      "type": "PRAISE",
+      "count": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "7516462123020409136",
+   "linkedinUrl": "https://www.linkedin.com/posts/harbor-ferries_%C4%8Dlanica-uprave-harbor-ferries-ana-kova%C4%8Devi%C4%87-activity-7516462123020409136-kxGc",
+   "content": "Članica Uprave Harbor Ferries Ana Kovačević Rubeša dobitnica nagrade Komunikator godine 2026! ✨ \n\nNa jučer održanoj konferenciji KomunikArt u Splitu, članica Uprave Harbor Ferries Ana Kovačević Rubeša osvojila je nagradu Komunikator godine 2026 u kategoriji korporativnih komunikacija.\n\nOvo priznanje potvrda je njezina doprinosa razvoju komunikacije s putnicima, unaprjeđenju digitalnih kanala i jačanju dijaloga s otočnim zajednicama. Ujedno je i potvrda važnosti stalnog ulaganja u komunikacije kao sastavni dio modernizacije poslovanja.\n\nHarbor Ferries sustavno razvija nove kanale i digitalne alate, s ciljem bolje dostupnosti informacija o voznim redovima i kvalitetnijeg iskustva putnika, stavljajući pritom u središte ljude i povjerenje. Priznanja poput ovog dodatna su potvrda smjera u kojem se kompanija razvija.\n\nČestitamo članici Uprave na zasluženom priznanju!",
+   "contentAttributes": [
+    {
+     "start": 30,
+     "length": 20,
+     "type": "PROFILE_MENTION",
+     "hyperlink": "https://www.linkedin.com/in/ACoAApimtCjTidYMEoTFXBeKRpjjF5z-ywKWoSY",
+     "textLink": null,
+     "profile": {
+      "id": "ACoAApimtCjTidYMEoTFXBeKRpjjF5z-ywKWoSY",
+      "firstName": "Ana",
+      "lastName": "Kovačević Rubeša",
+      "linkedinUrl": "https://www.linkedin.com/in/ACoAApimtCjTidYMEoTFXBeKRpjjF5z-ywKWoSY",
+      "publicIdentifier": null
+     }
+    },
+    {
+     "start": 129,
+     "length": 10,
+     "type": "COMPANY_NAME",
+     "hyperlink": "https://www.linkedin.com/company/90412236/",
+     "textLink": null,
+     "company": {
+      "id": "90412236",
+      "name": "KomunikArt",
+      "linkedinUrl": "https://www.linkedin.com/company/90412236/"
+     }
+    }
+   ],
+   "author": {
+    "id": "4410287",
+    "universalName": "harbor-ferries",
+    "publicIdentifier": null,
+    "type": "company",
+    "name": "Harbor Ferries",
+    "linkedinUrl": "https://www.linkedin.com/company/harbor-ferries/posts",
+    "info": "4,812 followers",
+    "website": null,
+    "websiteLabel": null,
+    "avatar": {
+     "url": "https://media.example.net/li/logo/harbor-ferries_100.jpg",
+     "width": 100,
+     "height": 100
+    },
+    "urn": "4410287",
+    "companyId": "4410287"
+   },
+   "postedAt": {
+    "timestamp": 1792064219241,
+    "date": "2026-10-15T11:36:59.241Z",
+    "postedAgoShort": "1w",
+    "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+   },
+   "postImages": [
+    {
+     "url": "https://media.example.net/li/feedshare/hf-409136-0.jpg",
+     "width": 1280,
+     "height": 1707
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-409136-1.jpg",
+     "width": 2048,
+     "height": 1365
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-409136-2.jpg",
+     "width": 1423,
+     "height": 1536
+    }
+   ],
+   "socialContent": {
+    "trustInterventionBanner": null,
+    "shareUrl": "https://www.linkedin.com/posts/harbor-ferries_%C4%8Dlanica-uprave-harbor-ferries-ana-kova%C4%8Devi%C4%87-activity-7516462123020409136-kxGc?"
+   },
+   "comments": [],
+   "header": {
+    "text": null
+   },
+   "entityId": "7516462123020409136",
+   "shareUrn": "urn:li:ugcPost:7516462121806617088",
+   "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7516462121806617088",
+   "engagement": {
+    "id": "7516462121806617088",
+    "likes": 43,
+    "comments": 4,
+    "shares": 4,
+    "reactions": [
+     {
+      "type": "LIKE",
+      "count": 36
+     },
+     {
+      "type": "EMPATHY",
+      "count": 3
+     },
+     {
+      "type": "PRAISE",
+      "count": 3
+     },
+     {
+      "type": "APPRECIATION",
+      "count": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "7514671641516853440",
+   "linkedinUrl": "https://www.linkedin.com/posts/harbor-ferries_harbor-ferries-na-ferry-industry-forumu-u-lisabonu-activity-7514671641516853440-G8TX",
+   "content": "Harbor Ferries na Ferry Industry Forumu u Lisabonu 🚢\n\nPredsjednik Uprave Harbor Ferries Tomislav Barić  sudjelovao je na ovogodišnjem Ferry Industry Forumu u Lisabonu, jednom od važnih međunarodnih okupljanja predstavnika trajektne industrije.\n\nU sklopu panela posvećenog kratkim trajektnim linijama predstavio je iskustva Harbor Ferries te sudjelovao u raspravi s predstavnicima europskih brodarskih kompanija i stručnjacima iz pomorskog sektora.\n\nU fokusu razgovora bili su izazovi i trendovi koji oblikuju budućnost trajektnog prometa, od obnove flote i zelene tranzicije do digitalizacije, rasta troškova i suradnje brodara i luka.",
+   "contentAttributes": [
+    {
+     "start": 88,
+     "length": 14,
+     "type": "PROFILE_MENTION",
+     "hyperlink": "https://www.linkedin.com/in/ACoAA7g26CYP8elCfUo6Ut7JcuUv5EE19EOGh0q",
+     "textLink": null,
+     "profile": {
+      "id": "ACoAA7g26CYP8elCfUo6Ut7JcuUv5EE19EOGh0q",
+      "firstName": "Tomislav",
+      "lastName": "Barić",
+      "linkedinUrl": "https://www.linkedin.com/in/ACoAA7g26CYP8elCfUo6Ut7JcuUv5EE19EOGh0q",
+      "publicIdentifier": null
+     }
+    }
+   ],
+   "author": {
+    "id": "4410287",
+    "universalName": "harbor-ferries",
+    "publicIdentifier": null,
+    "type": "company",
+    "name": "Harbor Ferries",
+    "linkedinUrl": "https://www.linkedin.com/company/harbor-ferries/posts",
+    "info": "4,812 followers",
+    "website": null,
+    "websiteLabel": null,
+    "avatar": {
+     "url": "https://media.example.net/li/logo/harbor-ferries_100.jpg",
+     "width": 100,
+     "height": 100
+    },
+    "urn": "4410287",
+    "companyId": "4410287"
+   },
+   "postedAt": {
+    "timestamp": 1791637335185,
+    "date": "2026-10-10T13:02:15.185Z",
+    "postedAgoShort": "1w",
+    "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+   },
+   "postImages": [
+    {
+     "url": "https://media.example.net/li/feedshare/hf-853440-0.jpg",
+     "width": 1772,
+     "height": 1179
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-853440-1.jpg",
+     "width": 1772,
+     "height": 1179
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-853440-2.jpg",
+     "width": 1772,
+     "height": 1179
+    },
+    {
+     "url": "https://media.example.net/li/feedshare/hf-853440-3.jpg",
+     "width": 1816,
+     "height": 1208
+    }
+   ],
+   "socialContent": {
+    "trustInterventionBanner": null,
+    "shareUrl": "https://www.linkedin.com/posts/harbor-ferries_harbor-ferries-na-ferry-industry-forumu-u-lisabonu-activity-7514671641516853440-G8TX?"
+   },
+   "comments": [],
+   "header": {
+    "text": null
+   },
+   "entityId": "7514671641516853440",
+   "shareUrn": "urn:li:ugcPost:7514671640433036726",
+   "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7514671640433036726",
+   "engagement": {
+    "id": "7514671640433036726",
+    "likes": 31,
+    "comments": 0,
+    "shares": 0,
+    "reactions": [
+     {
+      "type": "LIKE",
+      "count": 31
+     }
+    ]
+   }
+  }
+ ]
+}

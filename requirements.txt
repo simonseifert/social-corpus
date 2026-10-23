@@ -1,0 +1,13 @@
+# Runtime is stdlib-only except where a vendor format forces a reader.
+# HTTP goes through urllib on purpose: one less dependency to keep current on a
+# box that runs this unattended.
+
+openpyxl>=3.1        # linkedin_export: reads LinkedIn's Analytics .xlsx
+
+# dev
+pytest>=8.0
+
+# Not installable from here. `corpus enrich` shells out to these; without them it
+# skips media work instead of failing, and the rest of the tool is unaffected.
+#   ffmpeg / ffprobe   keyframes, audio extraction, duration probing
+#   Google Chrome      brief --pdf (headless print-to-PDF)

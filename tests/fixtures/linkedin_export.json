@@ -1,0 +1,80 @@
+{
+  "_provenance": {
+    "vendor": "LinkedIn Analytics export (creator analytics -> Export), .xlsx",
+    "honest_status": "RECONSTRUCTED, NOT A BYTE-FOR-BYTE RECORDING. No export file was available on this machine and one cannot be produced without a consented LinkedIn account. The sheet names, the label/value shape of DISCOVERY and FOLLOWERS, the header text of ENGAGEMENT and TOP POSTS, and the side-by-side dual-table layout of TOP POSTS (cols 0-2 ranked by engagements, cols 4-6 ranked by impressions, spacer column between) were triangulated from three independent open-source parsers that were each written against a real export.",
+    "sources": [
+      "https://github.com/manishrawal95/linkedin-engine backend/importer.py (openpyxl, all five sheets)",
+      "https://github.com/juliettech13/personal-analytics web/lib/uploads/parse.ts (documents the note+blank preamble above the TOP POSTS header)",
+      "https://github.com/Shahidul-Khan2004/PostBloom backend/src/integrations/linkedinXlsxParser.js (documents the repeated 'Post URL' block structure)",
+      "https://github.com/altafshaikh/content-factory .claude/skills/linkedin-performance-agent/SKILL.md (confirms Engagements is a composite with no breakdown)"
+    ],
+    "replace_with_real_file": "When a genuine export arrives, dump each sheet with openpyxl iter_rows(values_only=True) into this same shape and rerun tests/test_linkedin_export.py. Any header LinkedIn has renamed will fail loudly here rather than writing nulls into the corpus.",
+    "deliberate_variations": [
+      "Block 2's date header is 'Post Publish Date' while block 1's is 'Post publish date': both casings have been observed in the wild.",
+      "The same post appears in both tables with different utm tracking parameters, which is why merging happens on the activity id and not the URL string.",
+      "Three date encodings are present on purpose: a real datetime cell, an m/d/yyyy string, and an Excel serial number.",
+      "Three post-id shapes are present on purpose: /posts/...-activity-<id>, urn:li:activity:<id>, and a /pulse/ article with no id at all."
+    ]
+  },
+  "cell_encoding": "Plain JSON scalars become string/number/blank cells. {\"__dt__\": \"<iso>\"} becomes a real datetime cell, which is what openpyxl hands back for a date-formatted column.",
+  "sheets": {
+    "DISCOVERY": [
+      ["Discovery", null],
+      ["Overall Performance", "3/8/2025 - 3/7/2026"],
+      ["Impressions", 128456],
+      ["Members reached", 41230]
+    ],
+    "ENGAGEMENT": [
+      ["Date", "Impressions", "Engagements"],
+      [{"__dt__": "2026-03-14T00:00:00"}, 4120, 221],
+      [{"__dt__": "2026-03-19T00:00:00"}, 6550, 313]
+    ],
+    "TOP POSTS": [
+      ["Top posts", null, null, null, null, null, null],
+      [null, null, null, null, null, null, null],
+      ["Post URL", "Post publish date", "Engagements", null, "Post URL", "Post Publish Date", "Impressions"],
+      [
+        "https://www.linkedin.com/posts/alexrivera_ai-automation-for-gyms-activity-7438214077065216731-_kRw?utm_source=share&utm_medium=member_desktop",
+        {"__dt__": "2026-03-14T00:00:00"},
+        412,
+        null,
+        "https://www.linkedin.com/feed/update/urn:li:activity:7431501234567890123/",
+        "3/19/2026",
+        20418
+      ],
+      [
+        "https://www.linkedin.com/feed/update/urn:li:activity:7431501234567890123/",
+        "3/19/2026",
+        388,
+        null,
+        "https://www.linkedin.com/posts/alexrivera_ai-automation-for-gyms-activity-7438214077065216731-_kRw?utm_source=share&utm_medium=member_ios",
+        {"__dt__": "2026-03-14T00:00:00"},
+        15302
+      ],
+      [
+        "https://www.linkedin.com/pulse/why-your-crm-is-lying-to-you-alex-rivera-abcde",
+        46081,
+        45,
+        null,
+        "https://www.linkedin.com/pulse/why-your-crm-is-lying-to-you-alex-rivera-abcde",
+        46081,
+        2210
+      ]
+    ],
+    "FOLLOWERS": [
+      ["Total followers on 3/7/2026:", 4820],
+      [null, null],
+      ["Date", "New followers"],
+      [{"__dt__": "2026-03-14T00:00:00"}, 6],
+      [{"__dt__": "2026-03-19T00:00:00"}, 11]
+    ],
+    "DEMOGRAPHICS": [
+      ["Top Demographics", "Value", "Percentage"],
+      ["Job titles", "Founder", "8.4%"],
+      ["Job titles", "Marketing Manager", "5.1%"],
+      ["Locations", "Zagreb, Croatia", "12.0%"],
+      ["Seniority", "Owner", "9.7%"],
+      ["Company size", "11-50 employees", "< 1%"]
+    ]
+  }
+}

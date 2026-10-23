@@ -1,0 +1,11 @@
+[Unit]
+Description=corpus: alert that %i failed
+# No OnFailure here: an alert that fails must not alert about itself in a loop.
+
+[Service]
+Type=oneshot
+# The audience's timezone for weekday charts and "today"; set yours.
+Environment=CORPUS_TZ=UTC
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=@CORPUS_REPO@/.venv/bin/corpus notify --unit %i
+TimeoutStartSec=2min

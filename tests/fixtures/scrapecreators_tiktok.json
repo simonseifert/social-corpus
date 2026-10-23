@@ -1,0 +1,124 @@
+{
+ "_source": "Synthetic, modelled on a real ScrapeCreators GET /v3/tiktok/profile/videos response (a student centre account) recorded 2026-10-23; handle=student.center.portville, trimmed",
+ "success": true,
+ "credits_remaining": 7098,
+ "credits_charged": 1,
+ "max_cursor": 1774603763771,
+ "has_more": 1,
+ "aweme_list": [
+  {
+   "aweme_id": "1442045530006243056",
+   "create_time": 1792498110,
+   "desc": "#portville #kampus #sunshine #studentlife #scpv ",
+   "is_top": 0,
+   "url": "https://www.tiktok.com/@student.center.portville/video/1442045530006243056",
+   "statistics": {
+    "play_count": 1315,
+    "digg_count": 75,
+    "comment_count": 0,
+    "share_count": 3,
+    "collect_count": 0
+   },
+   "video": {
+    "duration": 16902,
+    "width": 576,
+    "height": 1024,
+    "play_addr": {
+     "url_list": [
+      "https://media.example.net/tt/video/ATTyyjFgdOYIKFbj1ZUtcMtXGQblGi02/"
+     ]
+    },
+    "cover": {
+     "url_list": [
+      "https://media.example.net/tt/cover/Vyg0INrtqYtg4OIrGcgpwBiTTgjJytOq.heic"
+     ]
+    }
+   },
+   "author": {
+    "uid": "5116750686281520187",
+    "unique_id": "student.center.portville",
+    "nickname": "Studentski centar Portville",
+    "follower_count": 1393,
+    "following_count": 39,
+    "aweme_count": 107,
+    "signature": "Studentski centar Portville \nKampus, Gornji grad"
+   }
+  },
+  {
+   "aweme_id": "5428016402973899383",
+   "create_time": 1791201387,
+   "desc": "#brucoši #fakultet #portville #scpv #studentlife ",
+   "is_top": 0,
+   "url": "https://www.tiktok.com/@student.center.portville/video/5428016402973899383",
+   "statistics": {
+    "play_count": 4055,
+    "digg_count": 128,
+    "comment_count": 0,
+    "share_count": 35,
+    "collect_count": 4
+   },
+   "video": {
+    "duration": 9267,
+    "width": 576,
+    "height": 1024,
+    "play_addr": {
+     "url_list": [
+      "https://media.example.net/tt/video/u46Zw3qDsernkr9RSfiVKbJ2qD3YR7pk/"
+     ]
+    },
+    "cover": {
+     "url_list": [
+      "https://media.example.net/tt/cover/zMQ7aKhDsxxH6JBpR3NZGcAWOUefLtcA.heic"
+     ]
+    }
+   },
+   "author": {
+    "uid": "5116750686281520187",
+    "unique_id": "student.center.portville",
+    "nickname": "Studentski centar Portville",
+    "follower_count": 1393,
+    "following_count": 39,
+    "aweme_count": 107,
+    "signature": "Studentski centar Portville \nKampus, Gornji grad"
+   }
+  },
+  {
+   "aweme_id": "3746653802652737642",
+   "create_time": 1790838134,
+   "desc": "besplatna kava u menzi Kampus danas do 10:30 😋 #svjetskidankave #scpv #portville #coffee ",
+   "is_top": 0,
+   "url": "https://www.tiktok.com/@student.center.portville/video/3746653802652737642",
+   "statistics": {
+    "play_count": 1412,
+    "digg_count": 32,
+    "comment_count": 0,
+    "share_count": 1,
+    "collect_count": 1
+   },
+   "video": {
+    "duration": 5800,
+    "width": 576,
+    "height": 1024,
+    "play_addr": {
+     "url_list": [
+      "https://media.example.net/tt/video/1BRCiVhf8MC4xjftredteCpDiL0Dzvl5/"
+     ]
+    },
+    "cover": {
+     "url_list": [
+      "https://media.example.net/tt/cover/0eHmb1eO23MwSO8QyApJUxqA6vYN3XO3.heic"
+     ]
+    }
+   },
+   "author": {
+    "uid": "5116750686281520187",
+    "unique_id": "student.center.portville",
+    "nickname": "Studentski centar Portville",
+    "follower_count": 1393,
+    "following_count": 39,
+    "aweme_count": 107,
+    "signature": "Studentski centar Portville \nKampus, Gornji grad"
+   }
+  }
+ ]
+}

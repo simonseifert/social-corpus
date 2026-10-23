@@ -1,0 +1,12 @@
+[Unit]
+Description=Upgrade yt-dlp (YouTube breaks old versions within weeks; corpus youtube_shorts and enrich depend on it)
+After=network-online.target
+Wants=network-online.target
+OnFailure=corpus-notify@%n.service
+
+[Service]
+Type=oneshot
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=@CORPUS_REPO@/deploy/ytdlp-upgrade.sh
+TimeoutStartSec=15min
+Nice=10

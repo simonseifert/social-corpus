@@ -1,0 +1,212 @@
+{
+ "_source": "Synthetic, modelled on a real ScrapeCreators GET /v2/instagram/user/posts response recorded 2026-10-23; handle=bistroharbor, trimmed; includes a collab post authored by a partner account with this profile as coauthor",
+ "success": true,
+ "credits_remaining": 7099,
+ "credits_charged": 1,
+ "next_max_id": "cursor-2",
+ "more_available": true,
+ "num_results": 4,
+ "user": {
+  "pk": "57820817132",
+  "id": "57820817132",
+  "username": "bistroharbor",
+  "full_name": "Bistro Harbor",
+  "biography": "⚓️ Riva 1, Portville\nRezervacije u DM\n#bistroharbor",
+  "follower_count": 3388,
+  "following_count": 1831,
+  "media_count": 222,
+  "category": "Mediterranean Restaurant",
+  "is_verified": false
+ },
+ "items": [
+  {
+   "pk": "5592924313174700498",
+   "id": "5592924313174700498_44132989805",
+   "code": "JvEgtsD6UEu",
+   "media_type": 2,
+   "product_type": "clips",
+   "taken_at": 1791889692,
+   "caption": {
+    "text": "Ovaj put smo bili u @bistroharbor u Portvilleu. Oprali smo suncobrane i tende na terasi, od plavo-bijelih pruga do platna iznad stolova.\n\nČiste tende znače svjetliju terasu, ugodniji boravak i dojam da netko brine o svakom detalju. Hvala ekipi iz Harbora na povjerenju! 💙\n\nImate restoran, kafić ili apartman s terasom? Javite nam se u DM i dogovorit ćemo termin prije nego krene nova sezona.\n\n#cistaterasa #portville #pranjetendi #restoranportville #profesionalnočišćenje"
+   },
+   "like_count": 18,
+   "comment_count": 2,
+   "play_count": 854,
+   "ig_play_count": 854,
+   "video_duration": 30.4,
+   "image_versions2": {
+    "candidates": [
+     {
+      "url": "https://cdn.example.com/ig/156807375_53268254206593749_n.jpg",
+      "width": 720,
+      "height": 1280
+     }
+    ]
+   },
+   "video_versions": [
+    {
+     "url": "https://cdn.example.com/video/RYPGn1VUfMI2k6opaRT9rZRRA9Xvz6Am8kTZthDv.mp4",
+     "width": null,
+     "height": null
+    }
+   ],
+   "owner": {
+    "username": "collab_partner",
+    "id": "1"
+   },
+   "user": {
+    "username": "collab_partner",
+    "id": "1"
+   },
+   "url": "https://www.instagram.com/p/JvEgtsD6UEu/",
+   "is_paid_partnership": false,
+   "like_and_view_counts_disabled": false,
+   "coauthor_producers": [
+    {
+     "username": "bistroharbor"
+    }
+   ]
+  },
+  {
+   "pk": "6130058678941320302",
+   "id": "6130058678941320302_57820817132",
+   "code": "8xuQrWM5n5q",
+   "media_type": 1,
+   "product_type": "feed",
+   "taken_at": 1791639325,
+   "caption": {
+    "text": "Hvala za sve, kapetane! 🖤"
+   },
+   "like_count": 3143,
+   "comment_count": 32,
+   "image_versions2": {
+    "candidates": [
+     {
+      "url": "https://cdn.example.com/fb/543853950_71634549495096027_n.jpg",
+      "width": null,
+      "height": null
+     }
+    ]
+   },
+   "owner": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "user": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "url": "https://www.instagram.com/p/8xuQrWM5n5q/",
+   "is_paid_partnership": false,
+   "like_and_view_counts_disabled": false,
+   "coauthor_producers": []
+  },
+  {
+   "pk": "8342565887181345998",
+   "id": "8342565887181345998_57820817132",
+   "code": "6OYjr8Wh9p3",
+   "media_type": 2,
+   "product_type": "clips",
+   "taken_at": 1782038271,
+   "caption": {
+    "text": "Svježe s ribarnice.. ❤️⚓️\nVidimo se u Harboru!\n#portville #bistroharbor #restaurant #seeyou"
+   },
+   "like_count": 85,
+   "comment_count": 8,
+   "play_count": 6278,
+   "ig_play_count": 6278,
+   "video_duration": 37.733334,
+   "image_versions2": {
+    "candidates": [
+     {
+      "url": "https://cdn.example.com/ig/444543163_4468212778355333_n.jpg",
+      "width": 640,
+      "height": 370
+     }
+    ]
+   },
+   "video_versions": [
+    {
+     "url": "https://cdn.example.com/video/Z-YWkwOsy7G26cyp8ELcFuO6uT7jCUuV5ee19eog.mp4",
+     "width": null,
+     "height": null
+    }
+   ],
+   "owner": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "user": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "url": "https://www.instagram.com/p/6OYjr8Wh9p3/",
+   "is_paid_partnership": false,
+   "like_and_view_counts_disabled": false,
+   "coauthor_producers": []
+  },
+  {
+   "pk": "2915722160837202064",
+   "id": "2915722160837202064_57820817132",
+   "code": "kHJqO1cmN6y",
+   "media_type": 8,
+   "product_type": "carousel_container",
+   "taken_at": 1781635721,
+   "caption": {
+    "text": "Dragi Marko,\n\nKao kuhar ostavio si trag u Portvilleu. Kao čovjek ostavio si trag u svima nama.\n\nHvala ti na svakoj večeri, svakom razgovoru i na tome što si uvijek nalazio vremena za Harbor. Bila nam je čast kroz sve ove godine raditi rame uz rame s tobom.\n\nŽelimo ti puno uspjeha, sreće i svega najboljeg u novom poglavlju života.\n\nNaša vrata — i tvoj stol — uvijek će te čekati.\n\nVidimo se uskoro, prijatelju. ❤️\n\nEkipa Harbora ⚓️🍷\n\n⸻\n\nDear Marko,\n\nAs a chef, you left a mark on Portville. As a person, you left a mark on all of us.\n\nThank you for every evening, every conversation, and for always making time for Harbor. It was an honour to work side by side with you over the years.\n\nWe wish you success, happiness, and all the best in your next adventure.\n\nOur doors — and your table — will always be waiting for you.\n\nSee you soon, friend. ❤️\n\nThe Harbor Team ⚓️🍷"
+   },
+   "like_count": 115,
+   "comment_count": 2,
+   "carousel_media_count": 2,
+   "carousel_media": [
+    {
+     "pk": "1233693202207834745",
+     "media_type": 1,
+     "image_versions2": {
+      "candidates": [
+       {
+        "url": "https://cdn.example.com/fb/724043964_65090442889935844_n.jpg",
+        "width": null,
+        "height": null
+       }
+      ]
+     }
+    },
+    {
+     "pk": "9369613091189237681",
+     "media_type": 1,
+     "image_versions2": {
+      "candidates": [
+       {
+        "url": "https://cdn.example.com/fb/604243310_69929082031254407_n.jpg",
+        "width": null,
+        "height": null
+       }
+      ]
+     }
+    }
+   ],
+   "image_versions2": {
+    "candidates": [
+     {
+      "url": "https://cdn.example.com/fb/724043964_65090442889935844_n.jpg",
+      "width": null,
+      "height": null
+     }
+    ]
+   },
+   "owner": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "user": {
+    "username": "bistroharbor",
+    "id": "57820817132"
+   },
+   "url": "https://www.instagram.com/p/kHJqO1cmN6y/",
+   "is_paid_partnership": false,
+   "like_and_view_counts_disabled": false,
+   "coauthor_producers": []
+  }
+ ]
+}

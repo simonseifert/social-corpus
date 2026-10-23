@@ -1,0 +1,202 @@
+{
+ "_source": "SYNTHETIC, modelled on the Bright Data docs sample record for gd_lk5ns7kz21pck8jpis (api-reference/scrapers/social-media-apis/instagram-posts-collect-by-url.md, read 2026-10-23); invented shop, text, ids and URLs, same keys and value types, including the vendor's *** masking and its mangled unicode hashtags ('#a'). Record 2 is record 1 edited into a reel with hidden likes (-1), because the account answered 'Customer is not active'.",
+ "records": [
+  {
+   "url": "https://www.instagram.com/p/DExmPl3QaZb",
+   "user_posted": "bijuexemplo",
+   "description": "Coleção Estrelas 💝 Brincos de aço com pedrinhas coloridas R$29,00\n\nParcelamos suas compras em até 10x no cartão \n\nFRETE FIXO PARA TODO O ESTADO R$12,00 FRETE FIXO PARA TODO O BRASIL R$25,00\n\nCatálogo no link da bio.\n\n*Aceitamos todos os cartões\n*Pix\n\nLoja aberta das 09:00 às 18:00 na rua principal, ao lado da praça\n\n#açoinoxidável #açocirurgico #brincofolheado #joia",
+   "hashtags": [
+    "#a",
+    "#a",
+    "#brincofolheado",
+    "#joia"
+   ],
+   "num_comments": 0,
+   "date_posted": "2025-04-12T13:03:14.000Z",
+   "likes": 51,
+   "photos": [
+    "https://cdn.example.com/ig/posts/fake-bijou-0_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE",
+    "https://cdn.example.com/ig/posts/fake-bijou-1_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE",
+    "https://cdn.example.com/ig/posts/fake-bijou-2_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE",
+    "https://cdn.example.com/ig/posts/fake-bijou-3_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE"
+   ],
+   "videos": null,
+   "location": [
+    "Vila Exemplo",
+    "Pará",
+    "Brasil"
+   ],
+   "latest_comments": null,
+   "post_id": "3512345678901234567",
+   "discovery_input": null,
+   "has_handshake": null,
+   "shortcode": "DExmPl3QaZb",
+   "content_type": "Carousel",
+   "pk": "3512345678901234567",
+   "content_id": "DExmPl3QaZb",
+   "engagement_score_view": null,
+   "thumbnail": "https://cdn.example.com/ig/posts/fake-bijou-0_s640x640.jpg?oh=00_fake&oe=69BD2DFE",
+   "video_view_count": null,
+   "product_type": null,
+   "coauthor_producers": null,
+   "tagged_users": null,
+   "video_play_count": null,
+   "followers": 18352,
+   "posts_count": 5214,
+   "profile_image_link": "https://cdn.example.com/ig/profile/bijuexemplo_s150x150.jpg?oh=00_fake&oe=69BD3DFE",
+   "is_verified": true,
+   "is_paid_partnership": false,
+   "partnership_details": {
+    "profile_id": null,
+    "profile_url": null,
+    "username": null
+   },
+   "user_posted_id": "487120356",
+   "post_content": [
+    {
+     "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+     "id": "3512345671234500000",
+     "index": 0,
+     "type": "Photo",
+     "url": "https://cdn.example.com/ig/posts/fake-bijou-0_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE"
+    },
+    {
+     "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+     "id": "3512345671234500001",
+     "index": 1,
+     "type": "Photo",
+     "url": "https://cdn.example.com/ig/posts/fake-bijou-1_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE"
+    },
+    {
+     "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+     "id": "3512345671234500002",
+     "index": 2,
+     "type": "Photo",
+     "url": "https://cdn.example.com/ig/posts/fake-bijou-2_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE"
+    },
+    {
+     "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+     "id": "3512345671234500003",
+     "index": 3,
+     "type": "Photo",
+     "url": "https://cdn.example.com/ig/posts/fake-bijou-3_p1080x1080.jpg?oh=00_fake&oe=69BD2DFE"
+    }
+   ],
+   "audio": {
+    "audio_asset_id": null,
+    "ig_artist_id": null,
+    "ig_artist_username": null,
+    "original_audio_title": null
+   },
+   "profile_url": "https://www.instagram.com/bijuexemplo",
+   "videos_duration": null,
+   "images": [
+    {
+     "id": "351***234***746******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***583******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***738******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***747******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    }
+   ],
+   "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+   "photos_number": 4,
+   "audio_url": null
+  },
+  {
+   "url": "https://www.instagram.com/p/DEyXXXXXXXX",
+   "user_posted": "bijuexemplo",
+   "description": "Reel.",
+   "hashtags": [
+    "#a",
+    "#a",
+    "#brincofolheado",
+    "#joia"
+   ],
+   "num_comments": 4,
+   "date_posted": "2025-04-10T10:00:00.000Z",
+   "likes": -1,
+   "photos": null,
+   "videos": [
+    "https://cdn.example.com/ig/video/fake-sample.mp4"
+   ],
+   "location": [
+    "Vila Exemplo",
+    "Pará",
+    "Brasil"
+   ],
+   "latest_comments": null,
+   "post_id": "3512000000000000001",
+   "discovery_input": null,
+   "has_handshake": null,
+   "shortcode": "DEyXXXXXXXX",
+   "content_type": "Video",
+   "pk": "3512000000000000001",
+   "content_id": "DEyXXXXXXXX",
+   "engagement_score_view": null,
+   "thumbnail": "https://cdn.example.com/ig/posts/fake-bijou-0_s640x640.jpg?oh=00_fake&oe=69BD2DFE",
+   "video_view_count": 900,
+   "product_type": "clips",
+   "coauthor_producers": null,
+   "tagged_users": null,
+   "video_play_count": 1500,
+   "followers": 18352,
+   "posts_count": 5214,
+   "profile_image_link": "https://cdn.example.com/ig/profile/bijuexemplo_s150x150.jpg?oh=00_fake&oe=69BD3DFE",
+   "is_verified": true,
+   "is_paid_partnership": false,
+   "partnership_details": {
+    "profile_id": null,
+    "profile_url": null,
+    "username": null
+   },
+   "user_posted_id": "487120356",
+   "post_content": [
+    {
+     "index": 0,
+     "type": "Video",
+     "url": "https://cdn.example.com/ig/video/fake-sample.mp4",
+     "id": "1"
+    }
+   ],
+   "audio": {
+    "audio_asset_id": null,
+    "ig_artist_id": null,
+    "ig_artist_username": null,
+    "original_audio_title": null
+   },
+   "profile_url": "https://www.instagram.com/bijuexemplo",
+   "videos_duration": 31.2,
+   "images": [
+    {
+     "id": "351***234***746******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***583******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***738******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    },
+    {
+     "id": "351***234***747******",
+     "url": "htt***//c***exa*********com**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+    }
+   ],
+   "alt_text": "Photo by Biju Exemplo on April 12, 2025.",
+   "photos_number": 0,
+   "audio_url": null
+  }
+ ]
+}

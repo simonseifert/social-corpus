@@ -1,0 +1,18 @@
+[Unit]
+Description=corpus nightly: sync, enrich, backup, off-box copy, health
+After=network-online.target
+Wants=network-online.target
+OnFailure=corpus-notify@%n.service
+
+[Service]
+Type=oneshot
+# The audience's timezone for weekday charts and "today"; set yours.
+Environment=CORPUS_TZ=UTC
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=CORPUS_BIN=@CORPUS_REPO@/.venv/bin/corpus
+# flock: a sync that overruns into the next night must not start a second writer
+# on the same SQLite file.
+ExecStart=/usr/bin/flock -n %h/.cache/corpus-nightly.lock @CORPUS_REPO@/deploy/corpus-nightly.sh
+TimeoutStartSec=2h
+Nice=10
+IOSchedulingClass=idle

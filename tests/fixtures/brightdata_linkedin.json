@@ -1,0 +1,124 @@
+{
+ "_source": "SYNTHETIC, modelled on the Bright Data docs sample record for gd_lyy3tktm25m4avu764 (api-reference/scrapers/social-media-apis/linkedin-posts-collect-by-url.md, read 2026-10-23); invented organisation, person, text, ids and URLs, same keys and value types, including the vendor's *** masking on some fields. Record 2 is record 1 edited into a video post and record 3 an error record shaped per products/scrapers/error-codes.md, because the account answered 'Customer is not active'.",
+ "records": [
+  {
+   "url": "https://de.linkedin.com/posts/beispielhof_sport-inklusion-sportf%C3%BCralle-activity-7381234567890123456-Xq7T",
+   "id": "7381234567890123456",
+   "user_id": "bei***iel***f",
+   "use_url": "https://de.linkedin.com/company/beispielhof?trk=public_post_feed-actor-image",
+   "title": "#sp*** #i***usi*********für*********************weg************************",
+   "headline": "Aus***chn*** fü********* Vi******************",
+   "post_text": "Auszeichnung für gelebte Vielfalt im #Sport . Unser Projekt Gemeinsam aktiv ist zusammen mit dem TSV Beispielstadt mit dem Sonderpreis „Ländlicher Raum“ eines regionalen Ehrenamtspreises ausgezeichnet worden. Verliehen wurde der Preis im Rahmen der Initiative „Offen für alle – Gemeinsam stark“ im Rathaus. Gewürdigt wurde das gemeinsame Angebot „Klettern für alle“, das seit knapp einem Jahr im Landkreis angeboten wird. Die Auszeichnung macht sichtbar, was das Projekt in der Praxis zeigt: Sport ist weit mehr als Bewegung. Sport schafft Begegnung, stärkt Selbstvertrauen und verbindet Menschen mit unterschiedlichen Voraussetzungen. Bei „Klettern für alle“ trainieren Menschen mit und ohne Behinderung gemeinsam. So entstehen nicht nur sportliche Erfahrungen, sondern auch Teilhabe und Zusammenhalt. Ein herzlicher Dank gilt allen Beteiligten, Unterstützer:innen und natürlich den Teilnehmenden, die dieses Projekt mit Leben füllen. #Inklusion #SportFürAlle #beispielhofbewegt Lena Beispiel",
+   "date_posted": "2026-03-17T10:30:06.724Z",
+   "hashtags": [
+    "#Sport",
+    "#Inklusion",
+    "#SportFürAlle",
+    "#beispielhofbewegt"
+   ],
+   "embedded_links": [
+    "https://www.linkedin.com/feed/hashtag/sport",
+    "https://www.linkedin.com/feed/hashtag/inklusion",
+    "https://www.linkedin.com/feed/hashtag/sportfAeSralle",
+    "https://www.linkedin.com/feed/hashtag/beispielhofbewegt",
+    "https://de.linkedin.com/in/lena-beispiel-0000000a?trk=public_post-text"
+   ],
+   "images": [
+    "https://media.example.net/li/image/fake-feedshare-shrink_800.jpg?e=2147483647&v=beta&t=fake"
+   ],
+   "videos": null,
+   "num_likes": 2,
+   "num_comments": 0,
+   "more_articles_by_user": null,
+   "more_relevant_posts": null,
+   "top_visible_comments": null,
+   "user_followers": 388,
+   "user_posts": 0,
+   "user_articles": 0,
+   "post_type": "post",
+   "account_type": "Organization",
+   "post_text_html": null,
+   "repost": null,
+   "tagged_companies": [],
+   "tagged_people": [
+    {
+     "link": "https://de.linkedin.com/in/lena-beispiel-0000000a?trk=public_post-text",
+     "name": "Lena B***l",
+     "type": "people"
+    }
+   ],
+   "user_title": null,
+   "author_profile_pic": "htt***//m***a.e*********net*********************fak****************************************************************************************************************************************************************************",
+   "num_connections": null,
+   "video_duration": null,
+   "external_link_data": null,
+   "video_thumbnail": null,
+   "document_cover_image": null,
+   "document_page_count": null,
+   "original_post_text": null
+  },
+  {
+   "url": "https://www.linkedin.com/posts/beispielhof_activity-7381000000000000001-AbCd",
+   "id": "7381000000000000001",
+   "user_id": "bei***iel***f",
+   "use_url": "https://de.linkedin.com/company/beispielhof?trk=public_post_feed-actor-image",
+   "title": "#sp*** #i***usi*********für*********************weg************************",
+   "headline": "Aus***chn*** fü********* Vi******************",
+   "post_text": "Video post.",
+   "date_posted": "2026-03-10T08:00:00.000Z",
+   "hashtags": [
+    "#Sport",
+    "#Inklusion",
+    "#SportFürAlle",
+    "#beispielhofbewegt"
+   ],
+   "embedded_links": [
+    "https://www.linkedin.com/feed/hashtag/sport",
+    "https://www.linkedin.com/feed/hashtag/inklusion",
+    "https://www.linkedin.com/feed/hashtag/sportfAeSralle",
+    "https://www.linkedin.com/feed/hashtag/beispielhofbewegt",
+    "https://de.linkedin.com/in/lena-beispiel-0000000a?trk=public_post-text"
+   ],
+   "images": null,
+   "videos": [
+    "https://media.example.net/li/video/fake-mp4-720p.mp4"
+   ],
+   "num_likes": 17,
+   "num_comments": 3,
+   "more_articles_by_user": null,
+   "more_relevant_posts": null,
+   "top_visible_comments": null,
+   "user_followers": 388,
+   "user_posts": 0,
+   "user_articles": 0,
+   "post_type": "post",
+   "account_type": "Organization",
+   "post_text_html": null,
+   "repost": null,
+   "tagged_companies": [],
+   "tagged_people": [
+    {
+     "link": "https://de.linkedin.com/in/lena-beispiel-0000000a?trk=public_post-text",
+     "name": "Lena B***l",
+     "type": "people"
+    }
+   ],
+   "user_title": null,
+   "author_profile_pic": "htt***//m***a.e*********net*********************fak****************************************************************************************************************************************************************************",
+   "num_connections": null,
+   "video_duration": 42,
+   "external_link_data": null,
+   "video_thumbnail": "https://media.example.net/li/image/fake-video-thumb.jpg",
+   "document_cover_image": null,
+   "document_page_count": null,
+   "original_post_text": null
+  }
+ ],
+ "error_record": {
+  "input": {
+   "url": "https://www.linkedin.com/company/does-not-exist/"
+  },
+  "error": "Page not found",
+  "error_code": "dead_page"
+ }
+}

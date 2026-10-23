@@ -1,0 +1,117 @@
+{
+ "_source": "Synthetic, modelled on a real ScrapeCreators GET /v1/facebook/profile/posts response (a local restaurant page) recorded 2026-10-23; url=https://www.facebook.com/bistroharbor/; topComments removed",
+ "success": true,
+ "credits_remaining": 7097,
+ "credits_charged": 1,
+ "cursor": "cursor-2",
+ "posts": [
+  {
+   "id": "2152249539121341",
+   "is_paid_partnership": null,
+   "text": "Hvala za sve, kapetane! 🖤",
+   "url": "https://www.facebook.com/bistroharbor/posts/pfbid0lfy1x0YbXd8LOkHOmVWRnGGZ0dwIobrTBH3Tt2J2NsSOdPbsRAoe4C7zE",
+   "author": {
+    "__typename": "User",
+    "name": "Bistro Harbor",
+    "short_name": "Bistro Harbor",
+    "id": "565904939174145"
+   },
+   "videoDetails": {},
+   "image": "https://cdn.example.com/fb/543853950_71634549495096027_n.jpg",
+   "reactionCount": 7276,
+   "share_count": 29,
+   "reaction_counts": {
+    "thankful": 0,
+    "like": 5448,
+    "love": 296,
+    "care": 424,
+    "haha": 4,
+    "wow": 4,
+    "sad": 1098,
+    "anger": 2,
+    "pride": 0,
+    "confused": 0
+   },
+   "commentCount": 220,
+   "videoViewCount": null,
+   "publishTime": 1791639333,
+   "creation_time": "2026-10-10T13:35:33.000Z"
+  },
+  {
+   "id": "6647166619851090",
+   "is_paid_partnership": null,
+   "text": "Svježe s ribarnice.. ❤️⚓️\nVidimo se u Harboru!\n#portville #bistroharbor #restaurant #seeyou",
+   "url": "https://www.facebook.com/reel/859039534752585/",
+   "permalink": "https://www.facebook.com/reel/859039534752585/",
+   "author": {
+    "__typename": "User",
+    "name": "Bistro Harbor",
+    "short_name": "Bistro Harbor",
+    "id": "565904939174145"
+   },
+   "reactionCount": 95,
+   "reaction_counts": {
+    "thankful": 0,
+    "like": 81,
+    "love": 14,
+    "care": 0,
+    "haha": 0,
+    "wow": 0,
+    "sad": 0,
+    "anger": 0,
+    "pride": 0,
+    "confused": 0
+   },
+   "commentCount": 5,
+   "videoViewCount": 12389,
+   "publishTime": 1782038283,
+   "creation_time": "2026-06-21T10:38:03.000Z",
+   "videoDetails": {
+    "sdUrl": "https://cdn.example.com/video/YU-ApMCJpIdnw24IWnkTPnnW_5uDfsX_51o9DIGB.mp4",
+    "hdUrl": "https://cdn.example.com/video/Z-YWkwOsy7G26cyp8ELcFuO6uT7jCUuV5ee19eog.mp4",
+    "thumbnailUrl": "https://cdn.example.com/fb/999172915_557740027862864_n.jpg"
+   },
+   "image": "https://cdn.example.com/fb/999172915_557740027862864_n.jpg",
+   "images": [
+    "https://cdn.example.com/fb/999172915_557740027862864_n.jpg"
+   ],
+   "share_count": 2
+  },
+  {
+   "id": "7491733341208442",
+   "is_paid_partnership": null,
+   "text": "Dragi Marko,\n\nKao kuhar ostavio si trag u Portvilleu. Kao čovjek ostavio si trag u svima nama.\n\nHvala ti na svakoj večeri, svakom razgovoru i na tome što si uvijek nalazio vremena za Harbor. Bila nam je čast kroz sve ove godine raditi rame uz rame s tobom.\n\nŽelimo ti puno uspjeha, sreće i svega najboljeg u novom poglavlju života.\n\nNaša vrata — i tvoj stol — uvijek će te čekati.\n\nVidimo se uskoro, prijatelju. ❤️\n\nEkipa Harbora ⚓️🍷\n\n⸻\n\nDear Marko,\n\nAs a chef, you left a mark on Portville. As a person, you left a mark on all of us.\n\nThank you for every evening, every conversation, and for always making time for Harbor. It was an honour to work side by side with you over the years.\n\nWe wish you success, happiness, and all the best in your next adventure.\n\nOur doors — and your table — will always be waiting for you.\n\nSee you soon, friend. ❤️\n\nThe Harbor Team ⚓️🍷",
+   "url": "https://www.facebook.com/bistroharbor/posts/pfbid02mlE7H8SX4XyuUqOXqXnDynssmt9UbbeHBQAaw8MxcZdmy9sK6s8LaZ",
+   "author": {
+    "__typename": "User",
+    "name": "Bistro Harbor",
+    "short_name": "Bistro Harbor",
+    "id": "565904939174145"
+   },
+   "reactionCount": 238,
+   "reaction_counts": {
+    "thankful": 0,
+    "like": 213,
+    "love": 22,
+    "care": 3,
+    "haha": 0,
+    "wow": 0,
+    "sad": 0,
+    "anger": 0,
+    "pride": 0,
+    "confused": 0
+   },
+   "commentCount": 7,
+   "videoViewCount": null,
+   "publishTime": 1781635733,
+   "creation_time": "2026-06-16T18:48:53.000Z",
+   "videoDetails": {},
+   "image": "https://cdn.example.com/fb/724043964_65090442889935844_n.jpg",
+   "images": [
+    "https://cdn.example.com/fb/724043964_65090442889935844_n.jpg",
+    "https://cdn.example.com/fb/604243310_69929082031254407_n.jpg"
+   ],
+   "share_count": 1
+  }
+ ]
+}

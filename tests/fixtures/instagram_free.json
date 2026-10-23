@@ -1,0 +1,857 @@
+{
+ "data": {
+  "user": {
+   "ai_agent_owner_username": null,
+   "ai_agent_type": null,
+   "biography": "Helping teams sell better\nPortville’s 30 Under 30",
+   "bio_links": [],
+   "fb_profile_biolink": null,
+   "biography_with_entities": {
+    "raw_text": "Helping teams sell better\nPortville’s 30 Under 30",
+    "entities": []
+   },
+   "blocked_by_viewer": false,
+   "restricted_by_viewer": null,
+   "country_block": false,
+   "eimu_id": "193971888021158",
+   "external_url": null,
+   "external_url_linkshimmed": null,
+   "edge_followed_by": {
+    "count": 3100
+   },
+   "fbid": "15430599401384140",
+   "followed_by_viewer": false,
+   "edge_follow": {
+    "count": 4196
+   },
+   "follows_viewer": false,
+   "full_name": "Jordan Novak | Helping teams sell better",
+   "group_metadata": null,
+   "has_ar_effects": false,
+   "has_clips": true,
+   "has_guides": false,
+   "has_channel": false,
+   "has_blocked_viewer": false,
+   "highlight_reel_count": 0,
+   "has_onboarded_to_text_post_app": true,
+   "has_requested_viewer": false,
+   "hide_like_and_view_counts": false,
+   "id": "6116877230",
+   "is_business_account": false,
+   "is_professional_account": true,
+   "is_supervision_enabled": false,
+   "is_guardian_of_viewer": false,
+   "is_supervised_by_viewer": false,
+   "is_supervised_user": false,
+   "is_embeds_disabled": false,
+   "is_joined_recently": false,
+   "guardian_id": null,
+   "business_address_json": "{\"city_name\": null, \"city_id\": null, \"latitude\": null, \"longitude\": null, \"street_address\": null, \"zip_code\": null}",
+   "business_contact_method": "UNKNOWN",
+   "business_email": null,
+   "business_phone_number": null,
+   "business_category_name": null,
+   "overall_category_name": null,
+   "category_enum": null,
+   "category_name": "Entrepreneur",
+   "is_private": false,
+   "is_verified": false,
+   "is_verified_by_mv4b": false,
+   "is_regulated_c18": false,
+   "edge_mutual_followed_by": {
+    "count": 0,
+    "edges": []
+   },
+   "pinned_channels_list_count": 0,
+   "profile_pic_url": "https://cdn.example.com/ig/3cd4cad4df97.jpg",
+   "profile_pic_url_hd": "https://cdn.example.com/ig/25f36d93f6d3.jpg",
+   "requested_by_viewer": false,
+   "should_show_category": true,
+   "should_show_public_contacts": true,
+   "show_account_transparency_details": true,
+   "show_text_post_app_badge": false,
+   "remove_message_entrypoint": false,
+   "transparency_label": null,
+   "transparency_product": null,
+   "username": "jordan.novak",
+   "pronouns": [],
+   "edge_felix_video_timeline": {
+    "count": 1,
+    "page_info": {
+     "has_next_page": false,
+     "end_cursor": ""
+    },
+    "edges": []
+   },
+   "edge_owner_to_timeline_media": {
+    "count": 191,
+    "page_info": {
+     "has_next_page": true,
+     "end_cursor": "4YPN7FEYdmBDRzDLKY8ARXE31tDoCRRB31JXG+U3s2ATmuOkgvYr53FSGfomwrajdfaxvK0JOezDqmrTjXY2CHGT5uWTSOURTB9xiM7kaOmuzCiWAxTYjU=="
+    },
+    "edges": [
+     {
+      "node": {
+       "__typename": "GraphVideo",
+       "id": "3695457991923281623",
+       "shortcode": "DTcJtIDymeO",
+       "dimensions": {
+        "height": 1333,
+        "width": 750
+       },
+       "display_url": "https://cdn.example.com/ig/910e53b85fd8.jpg",
+       "edge_media_to_tagged_user": {
+        "edges": []
+       },
+       "fact_check_overall_rating": null,
+       "fact_check_information": null,
+       "gating_info": null,
+       "sharing_friction_info": {
+        "should_have_sharing_friction": false,
+        "bloks_app_url": null
+       },
+       "media_overlay_info": null,
+       "media_preview": "En6JWGgwI6xSuJsEw4wmTB8G9EHGD2j/XDkQWPQQgXt7p9+o7fWledM9qgINXuQ1ryvcCZzP/+3J+T75t1mUeVrGpEScT3UZsCOw5LKrg/UFw1mRQD9Jpa+xTK22Ofl1i5GuS5tAYyhhzdknBYvwPezHa+/26OEElH4QKw1HVB+W/stgu2==",
+       "owner": {
+        "id": "6116877230",
+        "username": "jordan.novak"
+       },
+       "is_video": true,
+       "has_upcoming_event": false,
+       "accessibility_caption": null,
+       "dash_info": {
+        "is_dash_eligible": true,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"https://cdn.example.com/ig/6f137837a6ac.jpg\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT24.858427S\" FBManifestTimestamp=\"1982058307\" FBManifestIdentifier=\"wQ0XUWBSy8YVffLUrZTMLF9pEuotNNosTkfogQmPr3p7D47s5w0dfgSWVkG59zagbQTQI3pAlLkSBrBKrkkKBGXKJDbb3pB4Ng9QV1bfU65TqMIXca7RiIGCmwyhqSPMJpMDcfMvnoh=\"><Period id=\"0\" duration=\"PT24.858427S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:72.3\"><Representation id=\"1006447000603314v\" bandwidth=\"321962\" codecs=\"vp09.00.21.08.01.01.01.01.01\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_360p\" FBContentLength=\"1006673\" FBPlaybackResolutionMos=\"0:100,360:79.7,480:74.6,720:67.4,1080:57.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:92.9,480:89.1,720:82.2,1080:73\" FBAbrPolicyTags=\"\" width=\"360\" height=\"640\" frameRate=\"12008/500\" FBQualityClass=\"sd\" FBQualityLabel=\"360p\"><BaseURL>https://cdn.example.com/ig/b21b1e944c84.mp4</BaseURL><SegmentBase indexRange=\"818-909\" timescale=\"12008\" FBMinimumPrefetchRange=\"910-25094\" FBFirstSegmentRange=\"910-167655\" FBFirstSegmentDuration=\"5038\" FBSecondSegmentRange=\"167656-398263\" FBPrefetchSegmentRange=\"910-167655\" FBPrefetchSegmentDuration=\"5038\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1777703903144784v\" bandwidth=\"735289\" codecs=\"vp09.00.30.08.01.01.01.01.01\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_540p\" FBContentLength=\"2749144\" FBPlaybackResolutionMos=\"0:100,360:93.7,480:91.8,720:85.5,1080:76.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.7,480:97,720:95.1,1080:91\" FBAbrPolicyTags=\"\" width=\"540\" height=\"960\" frameRate=\"12008/500\" FBQualityClass=\"sd\" FBQualityLabel=\"540p\"><BaseURL>https://cdn.example.com/ig/eacfcd3fe373.mp4</BaseURL><SegmentBase indexRange=\"818-909\" timescale=\"12008\" FBMinimumPrefetchRange=\"910-49013\" FBFirstSegmentRange=\"910-383053\" FBFirstSegmentDuration=\"5038\" FBSecondSegmentRange=\"383054-902002\" FBPrefetchSegmentRange=\"910-383053\" FBPrefetchSegmentDuration=\"5038\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1981624481449248v\" bandwidth=\"1653042\" codecs=\"vp09.00.31.08.01.01.01.01.01\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_720p\" FBContentLength=\"3561082\" FBPlaybackResolutionMos=\"0:100,360:96.5,480:95.9,720:94.4,1080:90.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:99.041,480:98.76,720:98.05,1080:96.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"12008/500\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://cdn.example.com/ig/d79741ac352d.mp4</BaseURL><SegmentBase indexRange=\"818-909\" timescale=\"12008\" FBMinimumPrefetchRange=\"910-65242\" FBFirstSegmentRange=\"910-640338\" FBFirstSegmentDuration=\"5038\" FBSecondSegmentRange=\"640339-1573164\" FBPrefetchSegmentRange=\"910-640338\" FBPrefetchSegmentDuration=\"5038\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1148409120046457v\" bandwidth=\"1176642\" codecs=\"vp09.00.40.08.01.01.01.01.01\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_1080p\" FBContentLength=\"5438903\" FBPlaybackResolutionMos=\"0:100,360:97.2,480:96.8,720:95.9,1080:94\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:99.329,480:99.157,720:98.77,1080:97.8\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1920\" frameRate=\"12008/500\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://cdn.example.com/ig/019a93dbcb52.mp4</BaseURL><SegmentBase indexRange=\"818-909\" timescale=\"12008\" FBMinimumPrefetchRange=\"910-78166\" FBFirstSegmentRange=\"910-868079\" FBFirstSegmentDuration=\"5038\" FBSecondSegmentRange=\"868080-2105809\" FBPrefetchSegmentRange=\"910-868079\" FBPrefetchSegmentDuration=\"5038\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1283597057883495a\" bandwidth=\"80332\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"80332\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"250014\" FBPaqMos=\"85.07\" FBAbrPolicyTags=\"\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://cdn.example.com/ig/044c55a1492a.mp4</BaseURL><SegmentBase indexRange=\"824-1011\" timescale=\"44100\" FBMinimumPrefetchRange=\"1012-1355\" FBFirstSegmentRange=\"1012-22840\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"22841-46803\" FBPrefetchSegmentRange=\"1012-46803\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+        "number_of_qualities": 4
+       },
+       "has_audio": true,
+       "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzRmNWYzNzViZDYzODRhMTQzYTkzZDQ3Y2Y3Yjc3N2EzNjk1NDU3OTkxOTIzMjgxNjIzIn0sInNpZ25hdHVyZSI6IiJ9",
+       "video_url": "https://cdn.example.com/ig/faa8bd5b651f.mp4",
+       "video_view_count": 1398,
+       "edge_media_to_caption": {
+        "edges": [
+         {
+          "node": {
+           "text": "Proud to be recognised by the PORTVILLE BUSINESS AWARDS as one of the top 30 young founders in the region 🎉"
+          }
+         }
+        ]
+       },
+       "edge_media_to_comment": {
+        "count": 16
+       },
+       "comments_disabled": false,
+       "taken_at_timestamp": 1733209369,
+       "edge_liked_by": {
+        "count": 108
+       },
+       "edge_media_preview_like": {
+        "count": 108
+       },
+       "location": {
+        "id": "242936103",
+        "has_public_page": true,
+        "name": "Grand Harbor Hotel",
+        "slug": "grand-harbor-hotel"
+       },
+       "nft_asset_info": null,
+       "thumbnail_src": "https://cdn.example.com/ig/2ef98a8f832a.jpg",
+       "thumbnail_tall_src": "https://cdn.example.com/ig/a0cbd41bb631.jpg",
+       "thumbnail_resources": [
+        {
+         "src": "https://cdn.example.com/ig/f391c253c85b.jpg",
+         "config_width": 150,
+         "config_height": 150
+        },
+        {
+         "src": "https://cdn.example.com/ig/e60445f35db2.jpg",
+         "config_width": 240,
+         "config_height": 240
+        },
+        {
+         "src": "https://cdn.example.com/ig/849a43393d18.jpg",
+         "config_width": 320,
+         "config_height": 320
+        },
+        {
+         "src": "https://cdn.example.com/ig/c368e995dffc.jpg",
+         "config_width": 480,
+         "config_height": 480
+        },
+        {
+         "src": "https://cdn.example.com/ig/6d0c9634c467.jpg",
+         "config_width": 640,
+         "config_height": 640
+        }
+       ],
+       "felix_profile_grid_crop": null,
+       "tall_profile_grid_crop": {
+        "crop_left": 0.0,
+        "crop_right": 1.0,
+        "crop_top": 0.0,
+        "crop_bottom": 0.749014454664914
+       },
+       "profile_grid_thumbnail_fitting_style": "UNSET",
+       "coauthor_producers": [],
+       "pinned_for_users": [
+        {
+         "id": "6116877230",
+         "is_verified": false,
+         "profile_pic_url": "https://cdn.example.com/ig/3cd4cad4df97.jpg",
+         "username": "jordan.novak"
+        }
+       ],
+       "viewer_can_reshare": true,
+       "like_and_view_counts_disabled": false,
+       "product_type": "clips",
+       "clips_music_attribution_info": {
+        "artist_name": "jordan.novak",
+        "song_name": "Original audio",
+        "uses_original_audio": true,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "478041247386868"
+       }
+      }
+     },
+     {
+      "node": {
+       "__typename": "GraphSidecar",
+       "id": "3850370356165847108",
+       "shortcode": "DtfxbEkrPJJ",
+       "dimensions": {
+        "height": 1080,
+        "width": 1080
+       },
+       "display_url": "https://cdn.example.com/ig/f9853d2a66e8.jpg",
+       "edge_media_to_tagged_user": {
+        "edges": [
+         {
+          "node": {
+           "user": {
+            "full_name": "EXAMPLE WATCH",
+            "followed_by_viewer": false,
+            "id": "1730022485",
+            "is_verified": true,
+            "profile_pic_url": "https://cdn.example.com/ig/669cddcfde6d.jpg",
+            "username": "examplewatch"
+           },
+           "x": 0.7170542517,
+           "y": 0.6868217054
+          }
+         },
+         {
+          "node": {
+           "user": {
+            "full_name": "katana",
+            "followed_by_viewer": false,
+            "id": "78859402390",
+            "is_verified": true,
+            "profile_pic_url": "https://cdn.example.com/ig/1eb43c1195cb.jpg",
+            "username": "katana.demo"
+           },
+           "x": 0.2108526895,
+           "y": 0.6209302089000001
+          }
+         }
+        ]
+       },
+       "fact_check_overall_rating": null,
+       "fact_check_information": null,
+       "gating_info": null,
+       "sharing_friction_info": {
+        "should_have_sharing_friction": false,
+        "bloks_app_url": null
+       },
+       "media_overlay_info": null,
+       "media_preview": null,
+       "owner": {
+        "id": "6116877230",
+        "username": "jordan.novak"
+       },
+       "is_video": false,
+       "has_upcoming_event": false,
+       "accessibility_caption": null,
+       "edge_media_to_caption": {
+        "edges": [
+         {
+          "node": {
+           "text": "At 18, I told the owner of the café where I worked summers that I wouldn’t be back next year. He’d offered me a shift lead role, decent pay for a teenager. I said no, I told him I was going to start something of my own.\n\nNo car. No savings. Just a tram card, an old laptop, and a plan nobody else could picture yet.\n\nSome years later, I choose my hours and my desk; Close to 20 countries. More weeks away than at home this year. Over €2 million in pipeline built for the teams I work with. Doing the things that used to sit on a list called “someday.”\n\nSomeday arrived quietly. It looked like an ordinary Wednesday."
+          }
+         }
+        ]
+       },
+       "edge_media_to_comment": {
+        "count": 13
+       },
+       "comments_disabled": false,
+       "taken_at_timestamp": 1783282189,
+       "edge_liked_by": {
+        "count": 203
+       },
+       "edge_media_preview_like": {
+        "count": 203
+       },
+       "location": {
+        "id": "123563347130703",
+        "has_public_page": true,
+        "name": "London, United Kingdom",
+        "slug": "london-united-kingdom"
+       },
+       "nft_asset_info": null,
+       "thumbnail_src": "https://cdn.example.com/ig/cbb4a1dec967.jpg",
+       "thumbnail_tall_src": "https://cdn.example.com/ig/cbb4a1dec967.jpg",
+       "thumbnail_resources": [
+        {
+         "src": "https://cdn.example.com/ig/1404d46c7529.jpg",
+         "config_width": 150,
+         "config_height": 150
+        },
+        {
+         "src": "https://cdn.example.com/ig/d1e098b9b008.jpg",
+         "config_width": 240,
+         "config_height": 240
+        },
+        {
+         "src": "https://cdn.example.com/ig/f907e74b3c55.jpg",
+         "config_width": 320,
+         "config_height": 320
+        },
+        {
+         "src": "https://cdn.example.com/ig/80126d641445.jpg",
+         "config_width": 480,
+         "config_height": 480
+        },
+        {
+         "src": "https://cdn.example.com/ig/1e4adb914f9a.jpg",
+         "config_width": 640,
+         "config_height": 640
+        }
+       ],
+       "tall_profile_grid_crop": {
+        "crop_left": 0.193616543635548,
+        "crop_right": 0.675406547565865,
+        "crop_top": 0.35796547020990804,
+        "crop_bottom": 0.99960169039748
+       },
+       "profile_grid_thumbnail_fitting_style": "UNSET",
+       "coauthor_producers": [],
+       "pinned_for_users": [
+        {
+         "id": "6116877230",
+         "is_verified": false,
+         "profile_pic_url": "https://cdn.example.com/ig/3cd4cad4df97.jpg",
+         "username": "jordan.novak"
+        }
+       ],
+       "viewer_can_reshare": true,
+       "like_and_view_counts_disabled": false,
+       "edge_sidecar_to_children": {
+        "edges": [
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3075098481813164704",
+           "shortcode": "Df5Z-YWkwOs",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/f9853d2a66e8.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "5ZUH2Mffdv3LCXZPi/r98lq8EiXIell3ifCs1hDcwIMl0znMQfeWhIu3jU8csXCiPJrSKQPl/XmNlJk4gqChmPj77ifD9oI7BSbAA5JsBya/iHpMOBofx9511+CSVj4dJxVUisO0rTNIqlnEI0+/3Ft3bEkLA5kkAJO41sp/+1EP/uV7f2ioKhHEIR1tb8W3BTeio3VFxO6ZcPj2Hg+BZGBy0Wwg+7etHvL5jvEKtM2/rS4pnqY+Ejm2RVTk2e3oIjb1Woi/CqCer0ishnXbEi+BbE6iJcLIqQFm6cV3qqpBF5uGNQjBdqnIzXpOeu+Xv55k96smjvDhxAX8oSUAMWStzp60lzjEjCxityEgJFEv1jKsoXJNL1jeANZapVCL0zqhoyp0XoKTycxemfddRxEcYZ6HhVmJYwQTj3kqGqD+RLtcXSOFDQuMGwp++PdXr6lvTpUiT9G16UFNi2mLk2==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3889015532350190400",
+           "shortcode": "Dy7G26cyp8E",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/c9bbc4acd987.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "hrU8wC68t2QNpozjBh3hWjIqTbhw41UVXQcm9rB5oGtZIkUKQZYoVKEWcHh6vYE6X9WJXyiDew+8JTemodW6T4LiLt1LRRw8ebXAVFrkx3vOVRbdsZd//B1pJbStH9Lj1952zoej109r0Xs8JgNN/DNBXK9njPpHtwQl8D0eY7t/ELWGw7ABTYNL7eUokm8dN8UFxdOb0ieh7BBxU4QU9oK/JGDO11ACGhlyYd+Y6yIUKztiflfuv+B/mEBwFyK3O1raXDwke2gj82Wx79gP9LQvV2KV2m+3IB8fpAnTUO8PpLNLDjmtuZb7PlArZCmetHJRv1aQ2DGSG27l+dxbnYF13he67+6Z08a/kUdvTUsWKtuqZCS273GBV6W0R6nQ54FYFB3B5IpjraEJg+vSIbS+pdulP9smkc+f+GgvfT48tShnfatiJ9iOuzBEkW6FQYOwptfRBJQd8qbNGgLfwwtueryDt4zOjKlTEGgWcgSXjiyJDilaNjgujewTY/j9JtWbjSmBzKsKx3==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3913618028220850229",
+           "shortcode": "DLcFuO6uT7j",
+           "dimensions": {
+            "height": 1079,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/59ab7384a517.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "1vEaMmFCes6P4F6DUqgFtUrBWSOzM6WwFwemWFe0UgaVLZwArZPxsedpiFdBNp1NTly4n27eKP76qYdANzQN9XU+asLtjeCwNW+7UCLzTORdubneOm2Iwqi1GzJdv60S/RQn7f2n72qJA9UBX3BdRpir2CVGyM1RTjfq59PDuWA44AyDdquccOQ4IncSaeHiKwa0R9O+c5Q5GJ3+nOOIAVbRc+uRXiFxBZ2Aq4ALt+MKY61OtT9jLrypmLdUv3TcXJvV/a8dT9GrD+3zmXTmcLo+fKxaE6owxildaQcLx+caRWUndLxvcwwcrIduZkDpfJ3zV/fz0X9edJdtafjgx+FvCd/8HG9SxSODZ/J4wkRwdTmFIHfLDGD/X4OaF2g9OO/0aEXLHGiroU2fnAls0VCXzO/vF6cG7bSfKFgagXQFU9vGg2k1TP4cLZwp97CB0JMIBoNSS5qpefEwlc20Mq7heMO=",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3211372979236084521",
+           "shortcode": "DCUuV5ee19e",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/cf75ea67cdde.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": [
+             {
+              "node": {
+               "user": {
+                "full_name": "katana",
+                "followed_by_viewer": false,
+                "id": "78859402390",
+                "is_verified": true,
+                "profile_pic_url": "https://cdn.example.com/ig/1eb43c1195cb.jpg",
+                "username": "katana.demo"
+               },
+               "x": 0.2108526895,
+               "y": 0.6209302089000001
+              }
+             }
+            ]
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "nzFZQ0o/slHEpFsVlaIw1pzGgBrwkK91UGM22ySo/M5lWmDGtUwue7zw4uRynAtnD3VEhwXOxSQibE9PPlEzg81JKp08iolvcYkNESlS1/WkYuQ0HNwTaobOhSzmFTJKhKladqZR94rsGSo0mdtOb5JlWtrcngI/eZJaw4sejE5/uiGOmS5eTfMxNZKFMJbhhGMWoWBKOshg4W8JP+y+qmcNIBHbj8TriUfSq2ZGLfL8E2drbrmC4Y67L80XEHZekwa6soK8uywhwe9u/jmXv5Zhh5zhD3pLNVQHrcs6e9qpwhB2FRmwPTRMfiLD+uxrp2jkEz60F9Tbioghh7==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3047472338930851320",
+           "shortcode": "DogH0QeKEm5",
+           "dimensions": {
+            "height": 1079,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/7c072b91f454.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "ydMXfwm3K+X+ChrWXQK1x2nd7rFZ4zzPTknPmWHFlJoLyPCKqq3F4ajTWfmUnPWV87YzqzIXPW18CuU7RMUOvqubthUZdTboSYkVRciYfI64ocMTJj6cFOx5OZtwIJX42pwQKJLZU21tNjccXysJBqQ7biSCAYZMGYBaej2cVa/aRX2iQ0sv2rM7D0CgZh+sF3HOG5XDJDeCVQbspMKW8D7ANb2iOgNjAboBsvEe/3ra5Qei+SB8XLdxfV3u+kgk/nKRxza8gW2grLR5AZ3FzFu1UT5S3gip5krU6aL0urXVXDXPeafm0XB+68edBR79JWGcEzTPOZiuBoU+Hqlgvo6cnu4meIsReSQXjVmHfQ84IiUyqC1Qd5Hnnq==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3747029357220980140",
+           "shortcode": "DGnNUpjOuxJ",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/7890dfc01f4a.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": [
+             {
+              "node": {
+               "user": {
+                "full_name": "EXAMPLE WATCH",
+                "followed_by_viewer": false,
+                "id": "1730022485",
+                "is_verified": true,
+                "profile_pic_url": "https://cdn.example.com/ig/669cddcfde6d.jpg",
+                "username": "examplewatch"
+               },
+               "x": 0.7170542517,
+               "y": 0.6868217054
+              }
+             }
+            ]
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "7BiBf9Czz4RHj6SvYjgKd1SxUblu7hIDZHjKTvJTb3IDDj0OHgzZVlX8tx0ayJtxANvxzWUqAfi9GAMazi571C5KCeUxbsCVmJ1JPKy/f57klg14U0d7XpHa7saLq23WYPrCo6oomitwJikVaYxYiN3n1sJ2X+90Y5gG1eBunuT+zuMZjv/VJ214zG0rQ5g0QjYpVKC1Q9h/pB3kfbLxBTPPxNBRPXCG+DSH5odK3k/hbGrn2eb6sN108cOj1wCHUjvcG/8fkDYZ0FOd5rQZU2nHS+0YsQ/jrIYGU7qkTPGWWdYn92OQ07N0B7bDicVtKf+HjOV2nv4wr7hW6JKc662G3QcDACUOq5/KL3uU/rBMi0IHT4E0QepVAT/ceWRsDmJC7ygx3kEBY0qUbq3MASehIJbxqpnL3AA+OSPw/CTwzW7cihkfdeT80pmMKuDTr9AspT/vuQyjvG/xsl4vXj6SZoNXVX3r79gh62lh2TzzubDmYEs/x8==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3686405355280449894",
+           "shortcode": "DSClxiBHoxk",
+           "dimensions": {
+            "height": 1079,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/180195ae3b97.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "iub+pROlzZI0fylesIlbwR+RiWD/3x+o3UysPqevay9ypTIQfhJ3NlFZqeXi9nJKoG24EzNKA961DbqnQJ8EZRvm2qeiY/F5ZGG6GAem6MKCTWmQHNe6jszDlnszk80cm5dlzX6IsYmKyKKmfYNqISpKpt9oJfRCWnID6dhtnS1psSaXXO61qG2mAWq7eK2vJ+vV75hQI6gcsuS1LhuxMxcRtne4OKs1tnekoLtlIP0y89Ds/cGHLclGbUYYfhFmOjgwluu6/q40Ak44OHvw/h+9KJPVHH9MzkZMnko6A2lrd9B+3funisApJ//DtfFKVZDVFPAfUUypq9kD8PR8AonzoT50TevaMgF1o0sINT+AWldSJFG7CfG0qQLTyaBCmlELNeJzB6gaS+0vJ88lPivsQrLt/RdjewHzoG/Sr4N0zyQrTs9h",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphVideo",
+           "id": "3349274593562087617",
+           "shortcode": "DXUdgvzBhSD",
+           "dimensions": {
+            "height": 750,
+            "width": 750
+           },
+           "display_url": "https://cdn.example.com/ig/53ba2ea1324c.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "oO0IlsIYvvPsARYrmpAalJuO18uG0XG75DrK5Tzo/ukgz6f8RgsFnu8BqGWDvzOD+85WxKz2SS7j/23Otxnu5Icxfd+/ES67TdhNHetfC1deHFF1G8+8h+CgdVryKi7rPuuFtis5hB3bZnOe+hOF9EHFPgV3QnHuOt/oQSw89sFhMaIVvv7XRQen2zAJzxDtHvVgK/d5okEmAz2SGg+y4e+j/WSmMajZuK8p6HujsY+xxHobGZzOCG4v+UJAT+9uSaaNLhHRHcTGXBI9iAIRDWhv1KlY254MWFy4G1m0YnOoaftmImuDHOqjEWd/iyhir78t",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": true,
+           "has_upcoming_event": false,
+           "accessibility_caption": null,
+           "dash_info": {
+            "is_dash_eligible": true,
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"https://cdn.example.com/ig/6f137837a6ac.jpg\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT7.5S\" FBManifestTimestamp=\"1982058307\" FBManifestIdentifier=\"Dw6iPnTKSYvqOJMGezvO9JsXX648ugW5IpVt6cnyL6gLWoAM7lSAp8xXwROef1vq6StznhG2UIi9R6MiV3JsxrzcWvh8uhV90Fyt0fLiR7LkCw7P6z5MnUxGjG2cUAseA7kzCVQ=\"><Period id=\"0\" duration=\"PT7.5S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"1:1\" FBUnifiedUploadResolutionMos=\"360:78.4\"><Representation id=\"12076672720771914v\" bandwidth=\"73043\" codecs=\"vp09.00.21.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_360p\" FBContentLength=\"68478\" FBPlaybackResolutionMos=\"0:100,360:74.8,480:69.7,720:60.5,1080:50.3\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:89.3,480:84.4,720:75.8,1080:65.1\" FBAbrPolicyTags=\"\" width=\"360\" height=\"360\" frameRate=\"12288/512\" FBQualityClass=\"sd\" FBQualityLabel=\"360p\"><BaseURL>https://cdn.example.com/ig/c5252dd8af43.mp4</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"12288\" FBMinimumPrefetchRange=\"874-12026\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-28070\" FBFirstSegmentRange=\"874-42557\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"42558-68477\" FBPrefetchSegmentRange=\"874-42557\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"11385028147898830v\" bandwidth=\"187037\" codecs=\"vp09.00.30.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_540p\" FBContentLength=\"175348\" FBPlaybackResolutionMos=\"0:100,360:82.1,480:78.1,720:73.5,1080:66.7\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:93.9,480:92.1,720:88.1,1080:81.6\" FBAbrPolicyTags=\"\" width=\"540\" height=\"540\" frameRate=\"12288/512\" FBQualityClass=\"sd\" FBQualityLabel=\"540p\"><BaseURL>https://cdn.example.com/ig/18313f810306.mp4</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"12288\" FBMinimumPrefetchRange=\"874-26427\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-68621\" FBFirstSegmentRange=\"874-107634\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"107635-175347\" FBPrefetchSegmentRange=\"874-107634\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"18233714621367764v\" bandwidth=\"336725\" codecs=\"vp09.00.30.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_720p\" FBContentLength=\"315680\" FBPlaybackResolutionMos=\"0:100,360:88,480:84.3,720:79.7,1080:74.7\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:95.9,480:94.7,720:92.9,1080:89.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"720\" frameRate=\"12288/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://cdn.example.com/ig/e31fc653ac79.mp4</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"12288\" FBMinimumPrefetchRange=\"874-40981\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-122202\" FBFirstSegmentRange=\"874-197215\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"197216-315679\" FBPrefetchSegmentRange=\"874-197215\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"13778121452969965v\" bandwidth=\"441046\" codecs=\"vp09.00.40.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_vp9-basic-gen2_1080p\" FBContentLength=\"413481\" FBPlaybackResolutionMos=\"0:100,360:89.3,480:86.7,720:82.9,1080:78.4\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.3,480:95.5,720:94.2,1080:92.3\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1080\" frameRate=\"12288/512\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://cdn.example.com/ig/11d32fe91f3b.mp4</BaseURL><SegmentBase indexRange=\"818-873\" timescale=\"12288\" FBMinimumPrefetchRange=\"874-47723\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"874-160583\" FBFirstSegmentRange=\"874-259157\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"259158-413480\" FBPrefetchSegmentRange=\"874-259157\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+            "number_of_qualities": 4
+           },
+           "has_audio": false,
+           "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiODc3OTA0ZGY2NWIwMWY2NzYwMWNlMGIxMGY2OGUxMGUzMzQ5Mjc0NTkzNTYyMDg3NjE3In0sInNpZ25hdHVyZSI6IiJ9",
+           "video_url": "https://cdn.example.com/ig/b0189f5a819f.mp4",
+           "video_view_count": 179
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3422995754471345128",
+           "shortcode": "DcJ3MKgcL0D",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/f34a66b3f35d.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "POlWrDcCAzgjgfsIFDIwpcJx+vyE89FMlhAORXUb/I4mPGazXM8+kbgDHH5/v9Tyce8pcAjPeUPnbcUzDZwHbju/LvCtsSY4FLNmlg2Zo8VNW3TyVsgA5ZlTGPTl/cz+HYpwpSZLLSs2JTl4d7p7nZtHGdosyE8/YPQ5+/1RPBbeEq95jQO1+uS15+cWr1qZFaCOOileY1jzn1Wdf/4W1pq+JT+UEJrehL44xtvGNe9UHzf9tmOeL73IMVQ4KR6uFoVszL9q8o/kG+8n8Gu3rW1f5de6s8XQAPe15ydwK924hVCYR7XegJjeAksvW0Zef39x/9/ebdswv9oGsEdnQNxYFb23TZYa/HmlVYMvk1DZtuvcznis8SW8s4o//dtdOATtFTXYDaUlOxOpoChbFM57aTZ5d2HNtKVwJeMwxUVKQN7WrN2CzQlriubQuhe8ukk6XDUIPPpIYzRo6e7lBcSytc5x2q==",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         },
+         {
+          "node": {
+           "__typename": "GraphImage",
+           "id": "3627767667365153250",
+           "shortcode": "Di4Y87RfyVz",
+           "dimensions": {
+            "height": 1080,
+            "width": 1080
+           },
+           "display_url": "https://cdn.example.com/ig/da3c3eae2031.jpg",
+           "edge_media_to_tagged_user": {
+            "edges": []
+           },
+           "fact_check_overall_rating": null,
+           "fact_check_information": null,
+           "gating_info": null,
+           "sharing_friction_info": {
+            "should_have_sharing_friction": false,
+            "bloks_app_url": null
+           },
+           "media_overlay_info": null,
+           "media_preview": "z/UKRGMm3OhxCfkFlQEo2WZ5wl/cBYp2vUQZJVwuBlKE4yDOjTxd0QIdgfnvVEoh4kqCdo0+YCBsGzX0fBxr7Qf3Fs1uv2dhwHIrYTFb8ZOJVPTnXBjgnJdKI4EyE3WxbGezgcDpbHl5uFq5aIfloFxbWDTcL8NxFPYgfttlPIwcWNHtBmUBnDX0TcLqZeRsHd7uXKCuXGEPGyzQ0AbPBVz8LXQVS+Hy4boctf5udl7Rp8R9TYJJFL2fPV3+Wc/UQD353hSiNlZ5B6Z0Rw+Hrbr0D4yKp0ONGsLTM3ZNw99CMZoSYwAAdGYYGqrVyuXLJea2E9kA9cDU8Rkf9Yko5GNQUh494p4g1oqutLyIedlv3jiWcu3dY3eQDYB70hSs",
+           "owner": {
+            "id": "6116877230",
+            "username": "jordan.novak"
+           },
+           "is_video": false,
+           "has_upcoming_event": false,
+           "accessibility_caption": null
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "node": {
+       "__typename": "GraphVideo",
+       "id": "3864848077436706389",
+       "shortcode": "DM_PuOUp7tp",
+       "dimensions": {
+        "height": 1333,
+        "width": 750
+       },
+       "display_url": "https://cdn.example.com/ig/bf6d1f34243b.jpg",
+       "edge_media_to_tagged_user": {
+        "edges": [
+         {
+          "node": {
+           "user": {
+            "full_name": "Alex Rivera",
+            "followed_by_viewer": false,
+            "id": "40695738143",
+            "is_verified": false,
+            "profile_pic_url": "https://cdn.example.com/ig/f817127ec38e.jpg",
+            "username": "alex_rivera"
+           },
+           "x": 0.0,
+           "y": 0.0
+          }
+         }
+        ]
+       },
+       "fact_check_overall_rating": null,
+       "fact_check_information": null,
+       "gating_info": null,
+       "sharing_friction_info": {
+        "should_have_sharing_friction": false,
+        "bloks_app_url": null
+       },
+       "media_overlay_info": null,
+       "media_preview": "DN7CijOq3+VfPJddC9PH7avC36wK1vsGmKIMtBIR/b8Wj2uqj0XMpYV0jExriBkQgqjiWYRYYbYbykSb3gubPx8fmu0a1u12cHylSwlMkpIdbjcrVwKdaq/uiup0Judsb+8T2TLFots7tU4xJ+PrVOqftcz1to/kaoV36XkL",
+       "owner": {
+        "id": "6116877230",
+        "username": "jordan.novak"
+       },
+       "is_video": true,
+       "has_upcoming_event": false,
+       "accessibility_caption": null,
+       "dash_info": {
+        "is_dash_eligible": true,
+        "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"https://cdn.example.com/ig/6f137837a6ac.jpg\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT22.893425S\" FBManifestTimestamp=\"1982058307\" FBManifestIdentifier=\"iPyVC+SjpQFTfaMotzOHf3YSO1Sa9t+c+NIdwkfSvEVbVwEDer49FT99UmposEYHbdrbb7EJ0wHabp2OpwD+cUqfOtamnzXTfdXjYvsSZwIHvQbPT2I9\"><Period id=\"0\" duration=\"PT22.893425S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:73.1\"><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:TransferCharacteristics\" value=\"1\"/><Representation id=\"996031979691708v\" bandwidth=\"1306822\" codecs=\"avc1.64001f\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_baseline_1_v1\" FBContentLength=\"3948396\" FBPlaybackResolutionMos=\"0:100,360:91.1,480:86.8,720:79.8,1080:74.3,1440:69.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.8,480:95.5,720:93,1080:88.8,1440:84.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"12288/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://cdn.example.com/ig/62cee9efc6c6.mp4</BaseURL><SegmentBase indexRange=\"892-983\" timescale=\"12288\" FBMinimumPrefetchRange=\"984-63993\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"984-690910\" FBFirstSegmentRange=\"984-1149891\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"1598840-1976413\" FBPrefetchSegmentRange=\"984-1149891\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-891\"/></SegmentBase></Representation><Representation id=\"1743403551290379v\" bandwidth=\"312330\" codecs=\"avc1.4d001e\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_baseline_3_v1\" FBContentLength=\"893070\" FBPlaybackResolutionMos=\"0:100,360:71.1,480:65.7,720:58.4,1080:47.7,1440:41.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:85.7,480:80.7,720:73.8,1080:62.5,1440:55.2\" FBAbrPolicyTags=\"\" width=\"360\" height=\"640\" frameRate=\"12288/512\" FBQualityClass=\"sd\" FBQualityLabel=\"360p\"><BaseURL>https://cdn.example.com/ig/7cebc51adcef.mp4</BaseURL><SegmentBase indexRange=\"887-978\" timescale=\"12288\" FBMinimumPrefetchRange=\"979-20029\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"979-153611\" FBFirstSegmentRange=\"979-241225\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"241226-445169\" FBPrefetchSegmentRange=\"979-241225\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-886\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"2322509773515639a\" bandwidth=\"78204\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"78204\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"224794\" FBAbrPolicyTags=\"\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://cdn.example.com/ig/52ec578c53c5.mp4</BaseURL><SegmentBase indexRange=\"824-999\" timescale=\"44100\" FBMinimumPrefetchRange=\"1000-1343\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1000-27905\" FBFirstSegmentRange=\"1000-23111\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"23112-46106\" FBPrefetchSegmentRange=\"1000-46106\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+        "number_of_qualities": 2
+       },
+       "has_audio": true,
+       "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMThhYmUzZTkyNWFiNTNhNjE4NzEzMTQ0ZDQzMmNmOWUzODY0ODQ4MDc3NDM2NzA2Mzg5In0sInNpZ25hdHVyZSI6IiJ9",
+       "video_url": "https://cdn.example.com/ig/479775d8c365.mp4",
+       "video_view_count": 655,
+       "edge_media_to_caption": {
+        "edges": [
+         {
+          "node": {
+           "text": "Portville on a 2000s digicam is vibes. Found some driftwood on the beach, the seagulls and little kids were jealous of us. No phones just memories"
+          }
+         }
+        ]
+       },
+       "edge_media_to_comment": {
+        "count": 2
+       },
+       "comments_disabled": false,
+       "taken_at_timestamp": 1750241108,
+       "edge_liked_by": {
+        "count": 103
+       },
+       "edge_media_preview_like": {
+        "count": 103
+       },
+       "location": null,
+       "nft_asset_info": null,
+       "thumbnail_src": "https://cdn.example.com/ig/e1fd27818c08.jpg",
+       "thumbnail_tall_src": "https://cdn.example.com/ig/bea20f1eb6fe.jpg",
+       "thumbnail_resources": [
+        {
+         "src": "https://cdn.example.com/ig/e1f1f13ca677.jpg",
+         "config_width": 150,
+         "config_height": 150
+        },
+        {
+         "src": "https://cdn.example.com/ig/da8bf1785b0e.jpg",
+         "config_width": 240,
+         "config_height": 240
+        },
+        {
+         "src": "https://cdn.example.com/ig/b04e9013d76d.jpg",
+         "config_width": 320,
+         "config_height": 320
+        },
+        {
+         "src": "https://cdn.example.com/ig/219f5e096b49.jpg",
+         "config_width": 480,
+         "config_height": 480
+        },
+        {
+         "src": "https://cdn.example.com/ig/59a8d6451733.jpg",
+         "config_width": 640,
+         "config_height": 640
+        }
+       ],
+       "felix_profile_grid_crop": null,
+       "tall_profile_grid_crop": null,
+       "profile_grid_thumbnail_fitting_style": "UNSET",
+       "coauthor_producers": [
+        {
+         "id": "40695738143",
+         "is_verified": false,
+         "profile_pic_url": "https://cdn.example.com/ig/f817127ec38e.jpg",
+         "username": "alex_rivera"
+        }
+       ],
+       "pinned_for_users": [],
+       "viewer_can_reshare": true,
+       "like_and_view_counts_disabled": false,
+       "product_type": "clips",
+       "clips_music_attribution_info": {
+        "artist_name": "The Example Band",
+        "song_name": "Restless",
+        "uses_original_audio": false,
+        "should_mute_audio": false,
+        "should_mute_audio_reason": "",
+        "audio_id": "879418115438085"
+       }
+      }
+     }
+    ]
+   },
+   "edge_saved_media": {
+    "count": 0,
+    "page_info": {
+     "has_next_page": false,
+     "end_cursor": null
+    },
+    "edges": []
+   },
+   "edge_media_collections": {
+    "count": 0,
+    "page_info": {
+     "has_next_page": false,
+     "end_cursor": null
+    },
+    "edges": []
+   },
+   "edge_related_profiles": {
+    "edges": []
+   }
+  }
+ },
+ "status": "ok"
+}

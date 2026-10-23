@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly yt-dlp upgrade (Sundays 23:00, before Monday's syncs)
+
+[Timer]
+OnCalendar=Sun *-*-* 23:00:00
+RandomizedDelaySec=15m
+Persistent=true
+Unit=ytdlp-upgrade.service
+
+[Install]
+WantedBy=timers.target

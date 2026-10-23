@@ -1,0 +1,10 @@
+[Unit]
+Description=corpus weekly digest (Mondays 08:00)
+
+[Timer]
+OnCalendar=Mon *-*-* 08:00:00
+Persistent=true
+Unit=corpus-weekly.service
+
+[Install]
+WantedBy=timers.target

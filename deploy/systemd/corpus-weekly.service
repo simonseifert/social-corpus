@@ -1,0 +1,14 @@
+[Unit]
+Description=corpus weekly digest via the notify channel
+After=network-online.target
+Wants=network-online.target
+OnFailure=corpus-notify@%n.service
+
+[Service]
+Type=oneshot
+# The audience's timezone for weekday charts and "today"; set yours.
+Environment=CORPUS_TZ=UTC
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=@CORPUS_REPO@/.venv/bin/corpus weekly --send
+TimeoutStartSec=10min
+Nice=10
