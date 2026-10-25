@@ -40,7 +40,7 @@ import urllib.parse
 import urllib.request
 from typing import Any
 
-from .base import TargetGone, Adapter, FetchResult
+from .base import EmptyProfile, TargetGone, Adapter, FetchResult
 from .linkedin_posts import _item, _profile, _target
 
 BASE = "https://api.harvestapi.io"
@@ -167,7 +167,7 @@ def fetch(target: str, *, mode: str = "delta", keys: dict | None = None,
     cut = len(items) > limit
     items = items[:limit]
     if not records and floor is None:
-        raise RuntimeError(f"harvestapi returned 0 posts for {url} unfiltered "
+        raise EmptyProfile(f"harvestapi returned 0 posts for {url} unfiltered "
                            "(removed/gated page, or a changed response shape)")
     return FetchResult(
         items=items,

@@ -997,3 +997,71 @@ def test_harvest_company_not_found_is_definitive(monkeypatch):
         _json.dumps({"error": ["Company not found: harbor-ferries-typo"]}).encode()))
     with pytest.raises(TargetGone):
         H._get("/linkedin/company-posts", {"company": "x"}, "k")
+
+
+# ── a page that exists but has never posted (2026-10-23..25: nightly red 3x) ──
+
+def _empty_routes(*specs):
+    """specs: (name, apify_actor, behaviour) with behaviour 'empty' | 'error'."""
+    from corpus.adapters.base import EmptyProfile
+    calls = []
+
+    def mk(name, how):
+        def fetch(*a, **k):
+            calls.append(name)
+            if how == "empty":
+                raise EmptyProfile(f"{name}: no posts")
+            raise RuntimeError(f"{name}: 403 outstanding invoices")
+        return fetch
+    return calls, [Adapter(name=n, platform="linkedin", fetch=mk(n, how), apify_actor=act,
+                           relationships=("influencer",)) for n, act, how in specs]
+
+
+def test_two_vendors_agreeing_on_no_posts_is_a_checked_empty_account(tmp_path):
+    from corpus import freshness, health
+    conn = store.connect(tmp_path / "t.db")
+    aid = store.upsert_account(conn, platform="linkedin", handle="new-page",
+                               relationship="influencer")
+    calls, routes = _empty_routes(("brightdata_linkedin", "", "empty"),
+                                  ("linkedin_harvest", "", "empty"),
+                                  ("linkedin_posts", "harvestapi~linkedin-profile-posts", "empty"))
+    job = sync.execute(sync.Job(account_id=aid, target="x", routes=routes, mode="backfill"))
+    assert calls == ["brightdata_linkedin", "linkedin_harvest"]   # stops at the quorum
+    out = sync.record(conn, job)
+    assert out["status"] == "ok" and out["new"] == 0
+    assert conn.execute("SELECT COUNT(*) FROM scrape_run WHERE status='error'").fetchone()[0] == 0
+    assert freshness.plan(conn)[0].action == "skip"
+    chk = health.accounts(conn)[0]
+    assert chk.level == "ok" and "no posts yet" in chk.message
+    # still green past the normal 2x ttl, because it is only rechecked weekly...
+    later = store.now() + 6 * 86400
+    assert health.accounts(conn, now=later)[0].level == "ok"
+    # ...and due again after a week
+    conn.execute("UPDATE account SET last_scraped_at=? WHERE id=?",
+                 (store.now() - freshness.EMPTY_RECHECK - 60, aid))
+    assert freshness.plan(conn)[0].action == "backfill"
+
+
+def test_one_vendor_saying_empty_is_still_a_failure(tmp_path):
+    _, routes = _empty_routes(("brightdata_linkedin", "", "empty"),
+                              ("linkedin_harvest", "", "error"))
+    job = sync.execute(sync.Job(account_id=1, target="x", routes=routes))
+    assert not job.attempts[-1].ok
+
+
+def test_the_same_vendor_twice_is_not_a_second_opinion(tmp_path):
+    _, routes = _empty_routes(("linkedin_harvest", "", "empty"),
+                              ("linkedin_posts", "harvestapi~linkedin-profile-posts", "empty"))
+    job = sync.execute(sync.Job(account_id=1, target="x", routes=routes))
+    assert not job.attempts[-1].ok
+
+
+def test_brightdata_dead_page_without_activities_means_empty_not_broken():
+    from corpus.adapters import brightdata as B
+    from corpus.adapters.base import EmptyProfile
+    with pytest.raises(EmptyProfile):
+        B._raise_if_only_errors([], [{"error_code": "dead_page",
+                                      "error": "Activities are not found"}], "u")
+    with pytest.raises(RuntimeError) as e:
+        B._raise_if_only_errors([], [{"error_code": "dead_page", "error": "Page not found"}], "u")
+    assert not isinstance(e.value, EmptyProfile)

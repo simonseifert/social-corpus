@@ -36,6 +36,8 @@ DEFAULT_TTL = {
 # Beyond this, a "delta" sync is not really a delta any more: too much has happened
 # since the last successful pull to trust a small limit, so widen it.
 STALE_BACKFILL_AFTER = 30 * 86400
+# An account vendors confirmed has no posts (a brand-new page) is looked at weekly.
+EMPTY_RECHECK = 7 * 86400
 
 
 @dataclass
@@ -108,6 +110,11 @@ def plan(conn, *, account_ids=None, force: bool = False,
         if force:
             d = Decision(a["id"], a["handle"], a["platform"], "sync",
                          "forced", default_limit)
+        elif newest_id is None and a["last_scraped_at"] and age < max(ttl, EMPTY_RECHECK):
+            # Checked and confirmed empty: look again weekly, not every night.
+            d = Decision(a["id"], a["handle"], a["platform"], "skip",
+                         f"no posts yet, checked {age // 3600}h ago "
+                         f"(rechecked every {max(ttl, EMPTY_RECHECK) // 86400}d)")
         elif newest_id is None:
             # Never successfully pulled: there is nothing to compare against, so a
             # probe would tell us nothing we do not already know.

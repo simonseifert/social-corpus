@@ -25,7 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 
 from . import freshness, store
-from .adapters.base import Adapter, FetchResult, TargetGone
+from .adapters.base import Adapter, EmptyProfile, FetchResult, TargetGone
 
 # Metric keys that have real columns; anything else rides along in metrics_raw.
 _METRIC_COLS = ("reactions", "comments", "shares", "saves", "views")
@@ -173,6 +173,7 @@ class Attempt:
     started_at: int = 0
     finished_at: int = 0
     gone: bool = False              # the target does not exist / is private
+    empty: bool = False             # the vendor reached the profile: no posts on it
 
     @property
     def ok(self) -> bool:
@@ -202,7 +203,8 @@ def fetch_only(adapter: Adapter, target: str, *, mode: str = "delta",
             error=f"{type(e).__name__}: {e}\n{traceback.format_exc()}",
             # One line: an Apify 403 body printed as three lines of raw JSON.
             message=" ".join(str(e).split()), started_at=started,
-            finished_at=store.now(), gone=isinstance(e, TargetGone))
+            finished_at=store.now(), gone=isinstance(e, TargetGone),
+            empty=isinstance(e, EmptyProfile))
 
 
 @dataclass
@@ -244,9 +246,31 @@ def execute(job: Job, keys: dict[str, str] | None = None) -> Job:
         a = fetch_only(adapter, job.target, mode=job.mode, keys=keys,
                        since=job.since, **job.fetch_kwargs)
         job.attempts.append(a)
-        if a.ok or a.gone:
+        if a.ok or a.gone or len(empty_vendors(job.attempts)) >= EMPTY_QUORUM:
             break
+    if not any(a.ok for a in job.attempts) and len(empty_vendors(job.attempts)) >= EMPTY_QUORUM:
+        # Independent vendors agree the profile is there with nothing on it: a
+        # checked, empty account, not a failure (see EmptyProfile).
+        last = job.attempts[-1]
+        last.result = FetchResult(items=[], empty_confirmed=True)
+        last.error = None
+        last.message = (f"no posts on the profile ({' and '.join(sorted(empty_vendors(job.attempts)))} "
+                        f"agree)")
     return job
+
+
+# Two vendors, not two routes: linkedin_harvest and linkedin_posts are both HarvestAPI.
+EMPTY_QUORUM = 2
+
+
+def _vendor(adapter: Adapter) -> str:
+    if adapter.name == "linkedin_harvest" or (adapter.apify_actor or "").startswith("harvestapi"):
+        return "harvestapi"
+    return adapter.name.split("_")[0]
+
+
+def empty_vendors(attempts: list[Attempt]) -> set[str]:
+    return {_vendor(a.adapter) for a in attempts if a.empty}
 
 
 # ── the write half: owner thread only ───────────────────────────────────────
@@ -288,7 +312,10 @@ def record(conn, job: Job) -> dict:
     for a in job.attempts[:-1]:
         rid = store.start_run(conn, adapter=a.adapter.name, mode=job.mode,
                               account_id=job.account_id, started_at=a.started_at)
-        store.finish_run(conn, rid, status="error", error=a.error)
+        # an "empty" answer that counted toward a confirmed-empty result is not a failure
+        agreed = a.empty and job.attempts[-1].ok
+        store.finish_run(conn, rid, status="ok" if agreed else "error",
+                         error=None if agreed else a.error)
         fallbacks.append((a.adapter.name, a.message))
 
     last = job.attempts[-1]

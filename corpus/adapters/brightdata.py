@@ -50,7 +50,7 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from typing import Any, Callable
 
-from .base import (Adapter, FetchResult, Profile, RawItem, RawMedia, classify_kind,
+from .base import (EmptyProfile, Adapter, FetchResult, Profile, RawItem, RawMedia, classify_kind,
                    stable_id)
 
 BASE = "https://api.brightdata.com"
@@ -251,6 +251,11 @@ def _key(keys: dict | None) -> str:
 def _raise_if_only_errors(records, errors, where: str) -> None:
     if not records and errors:
         e = errors[0]
+        if all(x.get("error_code") == "dead_page"
+               and "activities are not found" in str(x.get("error")).lower() for x in errors):
+            # the page exists; it just has no posts ("dead_page" is BD's word for it)
+            raise EmptyProfile(f"brightdata: no posts on {where} "
+                               f"({e.get('error_code')} {str(e.get('error'))[:120]})")
         raise RuntimeError(f"brightdata returned only error records for {where}: "
                            f"{e.get('error_code') or ''} {str(e.get('error'))[:200]}")
 
@@ -371,7 +376,7 @@ def fetch_linkedin(target: str, *, mode: str = "delta", keys: dict | None = None
                               transport=transport or _http(key))
     _raise_if_only_errors(records, errors, url)
     if not records and floor is None:
-        raise RuntimeError(f"brightdata returned 0 posts for {url} unfiltered "
+        raise EmptyProfile(f"brightdata returned 0 posts for {url} unfiltered "
                            "(removed/gated page, or a changed response shape)")
     items, truncated = _finish([i for i in map(_li_item, records) if i], floor=floor,
                                limit=limit, n_records=len(records),
@@ -496,7 +501,7 @@ def fetch_instagram(target: str, *, mode: str = "delta", keys: dict | None = Non
                               transport=transport or _http(key))
     _raise_if_only_errors(records, errors, f"@{handle}")
     if not records and floor is None:
-        raise RuntimeError(f"brightdata returned 0 posts for @{handle} unfiltered "
+        raise EmptyProfile(f"brightdata returned 0 posts for @{handle} unfiltered "
                            "(private/removed account, or a changed response shape)")
     items, truncated = _finish([i for i in map(_ig_item, records) if i], floor=floor,
                                limit=limit, n_records=len(records),

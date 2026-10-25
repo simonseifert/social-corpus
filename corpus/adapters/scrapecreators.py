@@ -44,7 +44,7 @@ import urllib.parse
 import urllib.request
 from typing import Any, Callable
 
-from .base import (TargetGone, Adapter, FetchResult, Profile, RawItem, RawMedia, classify_kind,
+from .base import (EmptyProfile, TargetGone, Adapter, FetchResult, Profile, RawItem, RawMedia, classify_kind,
                    stable_id)
 from .instagram_client import _media_rows as _ig_media_rows, _metrics as _ig_metrics
 
@@ -276,7 +276,7 @@ def fetch_instagram(target: str, *, mode: str = "delta", keys: dict | None = Non
             return FetchResult(items=[], profile=prof,
                                cost_usd=round(credits * CREDIT_USD, 6), truncated=False,
                                empty_confirmed=True)
-        raise RuntimeError(f"scrapecreators returned 0 posts for @{handle} unfiltered")
+        raise EmptyProfile(f"scrapecreators returned 0 posts for @{handle} unfiltered")
     items, truncated = _finish([i for i in map(_ig_item, rows) if i],
                                floor=floor, limit=limit, more=more)
     return FetchResult(items=items, profile=_ig_profile(user, handle),
@@ -423,7 +423,7 @@ def fetch_facebook(target: str, *, mode: str = "delta", keys: dict | None = None
         next_of=lambda d: {"cursor": d["cursor"]} if d.get("cursor") else None,
         ts_of=lambda r: r.get("publishTime"), limit=limit, floor=floor, who=url)
     if not rows and floor is None:
-        raise RuntimeError(f"scrapecreators returned 0 posts for {url} unfiltered")
+        raise EmptyProfile(f"scrapecreators returned 0 posts for {url} unfiltered")
     items, truncated = _finish([i for i in map(_fb_item, rows) if i],
                                floor=floor, limit=limit, more=more)
     # The posts feed carries no page follower count; /v1/facebook/profile does, for

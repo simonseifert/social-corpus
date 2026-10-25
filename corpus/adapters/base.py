@@ -25,6 +25,14 @@ class TargetGone(RuntimeError):
     billed error records) and the throttled free Instagram route (2026-10-23)."""
 
 
+class EmptyProfile(RuntimeError):
+    """The vendor reached the profile and found no posts on it. One vendor saying so
+    could also be a changed response shape, so on its own this is still a failure;
+    sync treats it as a confirmed empty account only when a second, independent
+    vendor agrees (a brand-new LinkedIn page that has never posted kept the nightly
+    red for three nights, 2026-10-23..25)."""
+
+
 @dataclass
 class RawMedia:
     role: str                       # original | poster | keyframe | slide | thumbnail

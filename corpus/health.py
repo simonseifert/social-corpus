@@ -61,6 +61,11 @@ def accounts(conn, now: int | None = None) -> list[Check]:
             (a["id"], *NON_SYNC)).fetchone()["t"]
         last_ok = max(ok or 0, a["last_scraped_at"] or 0) or None
         ttl = freshness.ttl_for(a["relationship"])
+        # Zero items with last_scraped_at set only happens via empty_confirmed (every
+        # route raises on 0 posts otherwise): rechecked weekly, so judged weekly.
+        empty = a["n"] == 0 and bool(a["last_scraped_at"])
+        if empty:
+            ttl = max(ttl, freshness.EMPTY_RECHECK)
         # Failures AFTER the last success. A route that failed and fell through to
         # one that worked finished before the job's own row, so it is not counted.
         err = conn.execute(
@@ -69,7 +74,7 @@ def accounts(conn, now: int | None = None) -> list[Check]:
                    AND adapter NOT IN ({ph}) AND finished_at > ?
                  ORDER BY finished_at DESC, id DESC LIMIT 1""",
             (a["id"], *NON_SYNC, ok or 0)).fetchone()
-        info = f"{a['n']} items"
+        info = "no posts yet" if empty else f"{a['n']} items"
         if last_ok is None:
             lvl, msg = (RED if err else WARN), "never synced successfully"
         elif now - last_ok > 2 * ttl:
